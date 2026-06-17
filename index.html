@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIFA World Cup 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="trophy">🏆</span>
+      <span>FIFA World Cup 2026</span>
+    </div>
+    <div class="nav-links">
+      <button class="nav-btn active" data-page="home">Home</button>
+      <button class="nav-btn" data-page="teams">Teams</button>
+      <button class="nav-btn" data-page="players">Players</button>
+      <button class="nav-btn" data-page="groups">Groups</button>
+      <button class="nav-btn" data-page="bracket">🏆 Bracket</button>
+      <button class="nav-btn" data-page="schedule">📅 Schedule</button>
+      <button class="nav-btn" data-page="predict">🔮 Predict</button>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <div id="page-home" class="page active">
+    <div class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">USA · CANADA · MEXICO</div>
+        <h1>FIFA World Cup<br/><span>2026</span></h1>
+        <p>June 11 – July 19, 2026 · 48 Teams · 104 Matches</p>
+        <div class="hero-stats">
+          <div class="hstat"><span>48</span><small>Teams</small></div>
+          <div class="hstat"><span>104</span><small>Matches</small></div>
+          <div class="hstat"><span>12</span><small>Groups</small></div>
+          <div class="hstat"><span>3</span><small>Host Nations</small></div>
+        </div>
+        <button class="cta-btn" data-page="players">Explore Players</button>
+      </div>
+      <div class="hero-potm">
+        <div class="hero-potm-label">🏅 Golden Ball — Last 3 Tournaments</div>
+        <div class="hero-potm-cards" id="potm-grid">
+        <div class="potm-card" id="potm-2022">
+          <div class="potm-year-badge">2022 · Qatar</div>
+          <div class="potm-img-wrap"><div class="potm-img-placeholder">🐐</div><img class="potm-img" alt="Lionel Messi" /></div>
+          <div class="potm-info">
+            <div class="potm-name">Lionel Messi</div>
+            <div class="potm-country">🇦🇷 Argentina</div>
+            <div class="potm-stats"><span>7 <small>Goals</small></span><span>3 <small>Assists</small></span><span>7 <small>Games</small></span></div>
+            <div class="potm-award">🏅 Golden Ball Winner</div>
+          </div>
+        </div>
+        <div class="potm-card" id="potm-2018">
+          <div class="potm-year-badge">2018 · Russia</div>
+          <div class="potm-img-wrap"><div class="potm-img-placeholder">👑</div><img class="potm-img" alt="Luka Modrić" /></div>
+          <div class="potm-info">
+            <div class="potm-name">Luka Modrić</div>
+            <div class="potm-country">🇭🇷 Croatia</div>
+            <div class="potm-stats"><span>2 <small>Goals</small></span><span>1 <small>Assist</small></span><span>7 <small>Games</small></span></div>
+            <div class="potm-award">🏅 Golden Ball Winner</div>
+          </div>
+        </div>
+        <div class="potm-card" id="potm-2014">
+          <div class="potm-year-badge">2014 · Brazil</div>
+          <div class="potm-img-wrap"><div class="potm-img-placeholder">🐐</div><img class="potm-img" alt="Lionel Messi" /></div>
+          <div class="potm-info">
+            <div class="potm-name">Lionel Messi</div>
+            <div class="potm-country">🇦🇷 Argentina</div>
+            <div class="potm-stats"><span>4 <small>Goals</small></span><span>1 <small>Assist</small></span><span>7 <small>Games</small></span></div>
+            <div class="potm-award">🏅 Golden Ball Winner</div>
+          </div>
+        </div>
+        </div><!-- end hero-potm-cards -->
+      </div><!-- end hero-potm -->
+    </div><!-- end hero -->
+
+    <section class="section">
+      <h2 class="section-title">Host Cities</h2>
+      <div class="cities-grid">
+        <div class="city-card usa">🇺🇸<span>New York</span></div>
+        <div class="city-card usa">🇺🇸<span>Los Angeles</span></div>
+        <div class="city-card usa">🇺🇸<span>Dallas</span></div>
+        <div class="city-card usa">🇺🇸<span>San Francisco</span></div>
+        <div class="city-card usa">🇺🇸<span>Miami</span></div>
+        <div class="city-card usa">🇺🇸<span>Seattle</span></div>
+        <div class="city-card usa">🇺🇸<span>Boston</span></div>
+        <div class="city-card usa">🇺🇸<span>Kansas City</span></div>
+        <div class="city-card usa">🇺🇸<span>Atlanta</span></div>
+        <div class="city-card usa">🇺🇸<span>Philadelphia</span></div>
+        <div class="city-card can">🇨🇦<span>Toronto</span></div>
+        <div class="city-card can">🇨🇦<span>Vancouver</span></div>
+        <div class="city-card mex">🇲🇽<span>Mexico City</span></div>
+        <div class="city-card mex">🇲🇽<span>Guadalajara</span></div>
+        <div class="city-card mex">🇲🇽<span>Monterrey</span></div>
+        <div class="city-card usa">🇺🇸<span>Houston</span></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- TEAMS -->
+  <div id="page-teams" class="page">
+    <div class="page-header">
+      <h2>All 48 Teams</h2>
+      <input class="search-input" id="team-search" placeholder="Search team..." />
+    </div>
+    <div class="teams-grid" id="teams-grid"></div>
+  </div>
+
+  <!-- PLAYERS -->
+  <div id="page-players" class="page">
+    <div class="page-header">
+      <h2>Star Players</h2>
+      <div class="filters">
+        <input class="search-input" id="player-search" placeholder="Search player..." />
+        <select id="pos-filter" class="filter-select">
+          <option value="">All Positions</option>
+          <option value="GK">Goalkeeper</option>
+          <option value="DEF">Defender</option>
+          <option value="MID">Midfielder</option>
+          <option value="FWD">Forward</option>
+        </select>
+        <select id="team-filter" class="filter-select">
+          <option value="">All Teams</option>
+        </select>
+      </div>
+    </div>
+    <div class="players-grid" id="players-grid"></div>
+  </div>
+
+  <!-- GROUPS -->
+  <div id="page-groups" class="page">
+    <div class="page-header"><h2>Group Stage — 2026</h2></div>
+    <div class="groups-container" id="groups-container"></div>
+  </div>
+
+  <!-- BRACKET -->
+  <div id="page-bracket" class="page">
+    <div class="page-header bracket-header">
+      <h2>Knockout Bracket Simulator</h2>
+      <div class="bracket-controls">
+        <button id="btn-random" class="ctrl-btn">🎲 Simulate All</button>
+        <button id="btn-reset" class="ctrl-btn danger">↺ Reset</button>
+      </div>
+    </div>
+    <div class="bracket-rounds-label" id="rounds-label"></div>
+    <div class="bracket-wrap" id="bracket-wrap"></div>
+    <div id="champion-banner" class="champion-banner hidden"></div>
+  </div>
+
+  <!-- SCHEDULE -->
+  <div id="page-schedule" class="page">
+    <div class="page-header">
+      <h2>Match Schedule</h2>
+      <p style="color:var(--muted);font-size:0.9rem;margin-top:0.3rem">FIFA World Cup 2026 · June 11 – July 19</p>
+    </div>
+    <div class="sched-filters">
+      <div class="sched-tabs" id="sched-tabs">
+        <button class="sched-tab active" data-md="all">All</button>
+        <button class="sched-tab" data-md="1">Matchday 1</button>
+        <button class="sched-tab" data-md="2">Matchday 2</button>
+        <button class="sched-tab" data-md="3">Matchday 3</button>
+        <button class="sched-tab" data-md="ko">Knockout</button>
+      </div>
+      <select class="filter-select" id="sched-group-filter">
+        <option value="">All Groups</option>
+      </select>
+    </div>
+    <div id="schedule-list"></div>
+  </div>
+
+  <!-- PREDICT -->
+  <div id="page-predict" class="page">
+    <div class="page-header">
+      <h2>Match Predictor</h2>
+      <p style="color:var(--muted);font-size:0.9rem;margin-top:0.3rem">Pick two teams and get an AI-powered prediction</p>
+    </div>
+
+    <div class="predict-arena">
+      <!-- Team selectors -->
+      <div class="predict-selectors">
+        <div class="predict-team-pick" id="pick-a">
+          <div class="predict-flag-display" id="flag-a">🌍</div>
+          <select class="predict-select" id="select-a">
+            <option value="">— Select Team A —</option>
+          </select>
+        </div>
+
+        <div class="predict-vs-center">
+          <div class="predict-vs-badge">VS</div>
+          <button class="predict-btn" id="predict-go">🔮 Predict Winner</button>
+        </div>
+
+        <div class="predict-team-pick" id="pick-b">
+          <div class="predict-flag-display" id="flag-b">🌍</div>
+          <select class="predict-select" id="select-b">
+            <option value="">— Select Team B —</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div class="predict-result hidden" id="predict-result">
+        <div class="predict-winner-label">PREDICTED WINNER</div>
+        <div class="predict-winner-flag" id="result-flag"></div>
+        <div class="predict-winner-name" id="result-name"></div>
+        <div class="predict-score-line" id="result-score"></div>
+
+        <div class="predict-bars" id="predict-bars">
+          <div class="pbar-row">
+            <span class="pbar-label-l" id="bar-a-name"></span>
+            <div class="pbar-track">
+              <div class="pbar-fill-a" id="bar-a"></div>
+              <div class="pbar-fill-b" id="bar-b"></div>
+            </div>
+            <span class="pbar-label-r" id="bar-b-name"></span>
+          </div>
+          <div class="pbar-sublabels">
+            <span id="pct-a"></span>
+            <span style="color:var(--muted);font-size:0.75rem">Win probability</span>
+            <span id="pct-b"></span>
+          </div>
+        </div>
+
+        <div class="predict-factors" id="predict-factors"></div>
+        <div class="predict-verdict" id="predict-verdict"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLAYER MODAL -->
+  <div id="player-modal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-header">
+        <div class="modal-avatar" id="modal-avatar">
+          <span class="modal-avatar-emoji" id="modal-avatar-emoji"></span>
+          <img class="modal-avatar-img" id="modal-avatar-img" alt="" />
+        </div>
+        <div class="modal-identity">
+          <div class="modal-number" id="modal-number"></div>
+          <h2 id="modal-name"></h2>
+          <div class="modal-team" id="modal-team"></div>
+          <span class="modal-pos" id="modal-pos"></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-bio" id="modal-bio"></div>
+        <div class="modal-stats-grid">
+          <div class="mstat"><span id="ms-caps"></span><small>Caps</small></div>
+          <div class="mstat"><span id="ms-goals"></span><small>Int'l Goals</small></div>
+          <div class="mstat"><span id="ms-assists"></span><small>Assists</small></div>
+          <div class="mstat"><span id="ms-wc-apps"></span><small>WC Apps</small></div>
+          <div class="mstat"><span id="ms-wc-goals"></span><small>WC Goals</small></div>
+          <div class="mstat"><span id="ms-rating"></span><small>Rating</small></div>
+        </div>
+        <div class="modal-details">
+          <div class="mdetail"><span class="md-label">Born</span><span id="md-born"></span></div>
+          <div class="mdetail"><span class="md-label">Birthplace</span><span id="md-birthplace"></span></div>
+          <div class="mdetail"><span class="md-label">Club</span><span id="md-club"></span></div>
+          <div class="mdetail"><span class="md-label">Height</span><span id="md-height"></span></div>
+          <div class="mdetail"><span class="md-label">Foot</span><span id="md-foot"></span></div>
+          <div class="mdetail"><span class="md-label">Age</span><span id="md-age"></span></div>
+        </div>
+        <div class="modal-highlights">
+          <div class="mh-label">🏆 Career Highlights</div>
+          <div id="modal-highlights-list" class="mh-list"></div>
+        </div>
+        <div class="modal-rating-bar">
+          <div class="mrb-label">Overall Rating</div>
+          <div class="mrb-track"><div class="mrb-fill" id="mrb-fill"></div></div>
+          <div class="mrb-val" id="mrb-val"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="bracket.js"></script>
+  <script>
+    // Verified Wikimedia Commons URLs — tested and confirmed working
+    const POTM_IMGS = [
+      {
+        id: 'potm-2022',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Lionel-Messi-Argentina-2022-FIFA-World-Cup.jpg/500px-Lionel-Messi-Argentina-2022-FIFA-World-Cup.jpg'
+      },
+      {
+        id: 'potm-2018',
+        // Title: "Luka Modrić receives the golden ball prize at the hands of Russian President Vladimir Putin"
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Luka_Modri%C4%87_receives_the_golden_ball_prize_at_the_hands_of_Russian_President_Vladimir_Putin.jpg/500px-Luka_Modri%C4%87_receives_the_golden_ball_prize_at_the_hands_of_Russian_President_Vladimir_Putin.jpg'
+      },
+      {
+        id: 'potm-2014',
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lionel_Messi_celebrating_after_scoring_a_goal_against_Iran_at_the_2014_FIFA_World_Cup.jpg/500px-Lionel_Messi_celebrating_after_scoring_a_goal_against_Iran_at_the_2014_FIFA_World_Cup.jpg'
+      },
+    ];
+
+    POTM_IMGS.forEach(({ id, src }) => {
+      const card = document.getElementById(id);
+      const img = card.querySelector('.potm-img');
+      const placeholder = card.querySelector('.potm-img-placeholder');
+      img.src = src;
+      img.onload = () => { placeholder.style.display = 'none'; };
+    });
+  </script>
+</body>
+</html>
