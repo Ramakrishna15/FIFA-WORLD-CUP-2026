@@ -406,7 +406,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-16');
+  const TODAY = new Date('2026-06-17');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -484,6 +484,11 @@ teamFilter.addEventListener('change', filterPlayers);
     'Iran|New Zealand':           [2, 2],
     'Spain|Cape Verde':           [0, 0],
     'Saudi Arabia|Uruguay':       [1, 1],
+    // June 16 — Groups I & J
+    'France|Senegal':             [3, 1],
+    'Iraq|Norway':                [1, 4],
+    'Argentina|Algeria':          [3, 0],
+    'Austria|Jordan':             [3, 1],
   };
 
   // Populate group filter
