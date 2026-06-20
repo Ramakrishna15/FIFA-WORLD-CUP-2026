@@ -61,6 +61,34 @@ const TEAMS = [
   { id: 'pan',  name: 'Panama',              flag: '🇵🇦', cc: 'pa',     confederation: 'CONCACAF', group: 'L', strength: 58, fifaRank: 34 },
 ];
 
+const SCORERS = [
+  { name: 'Jonathan David',    team: 'Canada',        cc: 'ca',     goals: 3, assists: 1 },
+  { name: 'Lionel Messi',      team: 'Argentina',     cc: 'ar',     goals: 3, assists: 1 },
+  { name: 'Cyle Larin',        team: 'Canada',        cc: 'ca',     goals: 2, assists: 0 },
+  { name: 'Elijah Just',       team: 'New Zealand',   cc: 'nz',     goals: 2, assists: 0 },
+  { name: 'Erling Haaland',    team: 'Norway',        cc: 'no',     goals: 2, assists: 1 },
+  { name: 'Folarin Balogun',   team: 'United States', cc: 'us',     goals: 2, assists: 0 },
+  { name: 'Harry Kane',        team: 'England',       cc: 'gb-eng', goals: 2, assists: 1 },
+  { name: 'Ismael Saibari',    team: 'Morocco',       cc: 'ma',     goals: 2, assists: 0 },
+  { name: 'Johan Manzambi',    team: 'Switzerland',   cc: 'ch',     goals: 2, assists: 0 },
+  { name: 'Kai Havertz',       team: 'Germany',       cc: 'de',     goals: 2, assists: 0 },
+  { name: 'Kylian Mbappé',     team: 'France',        cc: 'fr',     goals: 2, assists: 1 },
+  { name: 'Matheus Cunha',     team: 'Brazil',        cc: 'br',     goals: 2, assists: 0 },
+  { name: 'Vinícius Júnior',   team: 'Brazil',        cc: 'br',     goals: 2, assists: 0 },
+  { name: 'Yasin Ayari',       team: 'Sweden',        cc: 'se',     goals: 2, assists: 1 },
+  { name: 'Alexander Isak',    team: 'Sweden',        cc: 'se',     goals: 1, assists: 0 },
+  { name: 'Bradley Barcola',   team: 'France',        cc: 'fr',     goals: 1, assists: 0 },
+  { name: 'Jamal Musiala',     team: 'Germany',       cc: 'de',     goals: 1, assists: 1 },
+  { name: 'Jude Bellingham',   team: 'England',       cc: 'gb-eng', goals: 1, assists: 1 },
+  { name: 'Marcus Rashford',   team: 'England',       cc: 'gb-eng', goals: 1, assists: 0 },
+  { name: 'Raúl Jiménez',      team: 'Mexico',        cc: 'mx',     goals: 1, assists: 0 },
+  { name: 'Rodrigo De Paul',   team: 'Argentina',     cc: 'ar',     goals: 1, assists: 0 },
+  { name: 'Pedri',             team: 'Spain',         cc: 'es',     goals: 1, assists: 0 },
+  { name: 'Deniz Undav',       team: 'Germany',       cc: 'de',     goals: 1, assists: 0 },
+  { name: 'Crysencio Summerville', team: 'Netherlands', cc: 'nl',   goals: 1, assists: 0 },
+  { name: 'Luis Díaz',         team: 'Colombia',      cc: 'co',     goals: 1, assists: 0 },
+];
+
 const PLAYERS = [
   // Argentina
   {

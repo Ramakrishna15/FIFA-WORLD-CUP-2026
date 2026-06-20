@@ -233,6 +233,66 @@ document.getElementById('player-search').addEventListener('input', filterPlayers
 document.getElementById('pos-filter').addEventListener('change', filterPlayers);
 teamFilter.addEventListener('change', filterPlayers);
 
+// ---- GOLDEN BOOT ----
+(function() {
+  const sorted = [...SCORERS].sort((a, b) => b.goals - a.goals || b.assists - a.assists);
+  const medals = ['🥇', '🥈', '🥉'];
+  const photoMap = {};
+
+  const list = document.getElementById('golden-boot-list');
+  list.className = 'golden-boot-list';
+
+  async function loadPhoto(name) {
+    if (photoMap[name]) return photoMap[name];
+    try {
+      const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(name)}&prop=pageimages&pithumbsize=200&format=json&origin=*`;
+      const res = await fetch(url);
+      const data = await res.json();
+      const pages = data?.query?.pages;
+      const page = pages[Object.keys(pages)[0]];
+      const src = page?.thumbnail?.source || null;
+      if (src) photoMap[name] = src;
+      return src;
+    } catch { return null; }
+  }
+
+  let currentRank = 1;
+  let prevGoals = -1;
+
+  list.innerHTML = sorted.map((s, i) => {
+    if (s.goals !== prevGoals) { currentRank = i + 1; prevGoals = s.goals; }
+    const rankClass = currentRank <= 3 ? `rank-${currentRank}` : '';
+    const rankDisplay = currentRank <= 3 ? medals[currentRank - 1] : currentRank;
+    return `
+      <div class="gb-row ${rankClass}" data-name="${s.name}">
+        <div class="gb-rank ${rankClass}">${rankDisplay}</div>
+        <div class="gb-avatar" id="gba-${i}">⚽</div>
+        <div class="gb-info">
+          <div class="gb-name">${s.name}</div>
+          <div class="gb-team">
+            <img src="https://flagcdn.com/w40/${s.cc}.png" alt="${s.team}" onerror="this.style.display='none'" />
+            ${s.team}
+          </div>
+        </div>
+        <div class="gb-stats">
+          <div class="gb-goals">${s.goals}</div>
+          <div class="gb-goals-label">Goals</div>
+          ${s.assists ? `<div class="gb-assists">${s.assists} assist${s.assists > 1 ? 's' : ''}</div>` : ''}
+        </div>
+      </div>`;
+  }).join('');
+
+  // Load photos async
+  sorted.forEach((s, i) => {
+    loadPhoto(s.name).then(src => {
+      if (src) {
+        const el = document.getElementById(`gba-${i}`);
+        if (el) el.innerHTML = `<img src="${src}" alt="${s.name}" />`;
+      }
+    });
+  });
+})();
+
 // ---- FANTASY ----
 (function() {
   const FORMATIONS = {
