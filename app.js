@@ -466,7 +466,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-19');
+  const TODAY = new Date('2026-06-21');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -554,11 +554,26 @@ teamFilter.addEventListener('change', filterPlayers);
     'Colombia|Uzbekistan':        [3, 1],
     'England|Croatia':            [4, 2],
     'Ghana|Panama':               [1, 0],
-    // June 18 — Groups A & B (Matchday 2)
+    // June 18 — Groups A & G (Matchday 2)
     'Czech Republic|South Africa':[1, 1],
     'Mexico|South Korea':         [1, 0],
+    'Belgium|Iran':               [2, 0],
+    'Egypt|New Zealand':          [1, 0],
+    // June 19 — Groups B & H (Matchday 2)
     'Switzerland|Bosnia & Herzegovina': [4, 1],
     'Canada|Qatar':               [6, 0],
+    'Spain|Saudi Arabia':         [3, 0],
+    'Cape Verde|Uruguay':         [0, 2],
+    // June 20 — Groups C & I (Matchday 2)
+    'Brazil|Haiti':               [4, 0],
+    'Morocco|Scotland':           [1, 0],
+    'France|Iraq':                [3, 0],
+    'Senegal|Norway':             [1, 1],
+    // June 21 — Groups D & J (Matchday 2)
+    'United States|Australia':    [2, 1],
+    'Paraguay|Turkey':            [1, 2],
+    'Argentina|Austria':          [2, 0],
+    'Algeria|Jordan':             [1, 0],
   };
 
   // Populate group filter
