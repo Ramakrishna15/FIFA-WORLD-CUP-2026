@@ -560,14 +560,12 @@ teamFilter.addEventListener('change', filterPlayers);
     // June 19 — Groups B (Matchday 2)
     'Switzerland|Bosnia & Herzegovina': [4, 1],
     'Canada|Qatar':               [6, 0],
-    // June 20 — Groups C & I (Matchday 2)
-    'Brazil|Haiti':               [4, 0],
+    // June 20 — Groups C, D & F (Matchday 2)
+    'Brazil|Haiti':               [3, 0],
     'Morocco|Scotland':           [1, 0],
-    'France|Iraq':                [3, 0],
-    'Senegal|Norway':             [1, 1],
-    // June 21 — Groups D & J (Matchday 2)
-    'United States|Australia':    [2, 1],
-    'Paraguay|Turkey':            [1, 2],
+    'United States|Australia':    [2, 0],
+    'Paraguay|Turkey':            [1, 0],
+    'Netherlands|Sweden':         [5, 1],
     'Argentina|Austria':          [2, 0],
     'Algeria|Jordan':             [1, 0],
     // June 21 — Groups E & F (Matchday 2)
