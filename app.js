@@ -466,7 +466,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-22');
+  const TODAY = new Date('2026-06-23');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -560,14 +560,17 @@ teamFilter.addEventListener('change', filterPlayers);
     // June 19 — Groups B (Matchday 2)
     'Switzerland|Bosnia & Herzegovina': [4, 1],
     'Canada|Qatar':               [6, 0],
-    // June 20 — Groups C, D & F (Matchday 2)
+    // June 20 — Groups C, D, F & I (Matchday 2)
     'Brazil|Haiti':               [3, 0],
     'Morocco|Scotland':           [1, 0],
     'United States|Australia':    [2, 0],
     'Paraguay|Turkey':            [1, 0],
     'Netherlands|Sweden':         [5, 1],
+    'France|Iraq':                [3, 0],
+    'Senegal|Norway':             [1, 4],
+    // June 22-23 — Groups J (Matchday 2)
     'Argentina|Austria':          [2, 0],
-    'Algeria|Jordan':             [1, 0],
+    'Algeria|Jordan':             [2, 1],
     // June 21 — Groups E & F (Matchday 2)
     'Germany|Côte d\'Ivoire':     [2, 1],
     'Curaçao|Ecuador':            [0, 0],
