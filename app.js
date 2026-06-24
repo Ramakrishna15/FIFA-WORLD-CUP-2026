@@ -571,6 +571,11 @@ teamFilter.addEventListener('change', filterPlayers);
     // June 22-23 — Groups J (Matchday 2)
     'Argentina|Austria':          [2, 0],
     'Algeria|Jordan':             [2, 1],
+    // June 23 — Groups K & L (Matchday 2)
+    'Portugal|Uzbekistan':        [5, 0],
+    'DR Congo|Colombia':          [0, 1],
+    'England|Ghana':              [0, 0],
+    'Croatia|Panama':             [1, 0],
     // June 21 — Groups E & F (Matchday 2)
     'Germany|Côte d\'Ivoire':     [2, 1],
     'Curaçao|Ecuador':            [0, 0],
