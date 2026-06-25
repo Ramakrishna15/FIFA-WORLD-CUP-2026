@@ -466,7 +466,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-23');
+  const TODAY = new Date('2026-06-24');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -576,6 +576,13 @@ teamFilter.addEventListener('change', filterPlayers);
     'DR Congo|Colombia':          [0, 1],
     'England|Ghana':              [0, 0],
     'Croatia|Panama':             [1, 0],
+    // June 24 — Groups A, B & C (Matchday 3)
+    'Mexico|Czech Republic':      [3, 0],
+    'South Africa|South Korea':   [1, 0],
+    'Canada|Switzerland':         [1, 2],
+    'Bosnia & Herzegovina|Qatar': [3, 1],
+    'Brazil|Scotland':            [3, 0],
+    'Morocco|Haiti':              [4, 2],
     // June 21 — Groups E & F (Matchday 2)
     'Germany|Côte d\'Ivoire':     [2, 1],
     'Curaçao|Ecuador':            [0, 0],
