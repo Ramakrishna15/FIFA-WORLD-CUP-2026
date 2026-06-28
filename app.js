@@ -466,7 +466,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-26');
+  const TODAY = new Date('2026-06-27');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -597,6 +597,13 @@ teamFilter.addEventListener('change', filterPlayers);
     'Cape Verde|Saudi Arabia':    [0, 0],
     'France|Norway':              [5, 1],
     'Senegal|Iraq':               [5, 0],
+    // June 27 — Groups J, K & L (Matchday 3)
+    'Argentina|Jordan':           [3, 1],
+    'Algeria|Austria':            [3, 3],
+    'Portugal|Colombia':          [0, 0],
+    'DR Congo|Uzbekistan':        [3, 1],
+    'England|Panama':             [2, 0],
+    'Croatia|Ghana':              [2, 1],
     // June 21 — Groups E & F (Matchday 2)
     'Germany|Côte d\'Ivoire':     [2, 1],
     'Curaçao|Ecuador':            [0, 0],
