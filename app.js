@@ -626,7 +626,9 @@ teamFilter.addEventListener('change', filterPlayers);
     'Croatia|Ghana':              [2, 1],
     // Round of 32
     'Canada|South Africa':        [1, 0],
-    'Brazil|Japan':               [0, 1],
+    'Brazil|Japan':               [2, 1],
+    'Germany|Paraguay':           [1, 1],  // Paraguay win 4-3 on pens
+    'Netherlands|Morocco':        [1, 1],  // Morocco win 3-2 on pens
     // June 21 — Groups E & F (Matchday 2)
     'Germany|Côte d\'Ivoire':     [2, 1],
     'Curaçao|Ecuador':            [0, 0],
