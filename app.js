@@ -464,6 +464,89 @@ teamFilter.addEventListener('change', filterPlayers);
   renderPool('GK');
 })();
 
+// ---- LIVE BRACKET ----
+(function() {
+  const PENS = {
+    'Germany|Paraguay':        'Paraguay win 4-3 on pens',
+    'Netherlands|Morocco':     'Morocco win 3-2 on pens',
+  };
+
+  const LIVE_KO = [
+    { round: 'Round of 32', date: '2026-06-28', home: 'Canada',           homeCC: 'ca',     away: 'South Africa',        awayCC: 'za'     },
+    { round: 'Round of 32', date: '2026-06-29', home: 'Brazil',           homeCC: 'br',     away: 'Japan',               awayCC: 'jp'     },
+    { round: 'Round of 32', date: '2026-06-29', home: 'Germany',          homeCC: 'de',     away: 'Paraguay',            awayCC: 'py'     },
+    { round: 'Round of 32', date: '2026-06-29', home: 'Netherlands',      homeCC: 'nl',     away: 'Morocco',             awayCC: 'ma'     },
+    { round: 'Round of 32', date: '2026-06-30', home: 'France',           homeCC: 'fr',     away: 'Sweden',              awayCC: 'se'     },
+    { round: 'Round of 32', date: '2026-06-30', home: "Côte d'Ivoire",   homeCC: 'ci',     away: 'Norway',              awayCC: 'no'     },
+    { round: 'Round of 32', date: '2026-06-30', home: 'Mexico',           homeCC: 'mx',     away: 'Ecuador',             awayCC: 'ec'     },
+    { round: 'Round of 32', date: '2026-07-01', home: 'England',          homeCC: 'gb-eng', away: 'DR Congo',            awayCC: 'cd'     },
+    { round: 'Round of 32', date: '2026-07-01', home: 'United States',    homeCC: 'us',     away: 'Bosnia & Herzegovina',awayCC: 'ba'     },
+    { round: 'Round of 32', date: '2026-07-01', home: 'Belgium',          homeCC: 'be',     away: 'Senegal',             awayCC: 'sn'     },
+    { round: 'Round of 32', date: '2026-07-02', home: 'Portugal',         homeCC: 'pt',     away: 'Croatia',             awayCC: 'hr'     },
+    { round: 'Round of 32', date: '2026-07-02', home: 'Spain',            homeCC: 'es',     away: 'Austria',             awayCC: 'at'     },
+    { round: 'Round of 32', date: '2026-07-02', home: 'Switzerland',      homeCC: 'ch',     away: 'Algeria',             awayCC: 'dz'     },
+    { round: 'Round of 32', date: '2026-07-03', home: 'Argentina',        homeCC: 'ar',     away: 'Cape Verde',          awayCC: 'cv'     },
+    { round: 'Round of 32', date: '2026-07-03', home: 'Colombia',         homeCC: 'co',     away: 'Ghana',               awayCC: 'gh'     },
+    { round: 'Round of 32', date: '2026-07-03', home: 'Australia',        homeCC: 'au',     away: 'Egypt',               awayCC: 'eg'     },
+  ];
+
+  const SCORES_KO = {
+    'Canada|South Africa':    [1, 0],
+    'Brazil|Japan':           [2, 1],
+    'Germany|Paraguay':       [1, 1],
+    'Netherlands|Morocco':    [1, 1],
+  };
+
+  const TODAY = new Date('2026-06-29');
+
+  function flag(cc) {
+    return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
+  }
+
+  function renderLiveBracket() {
+    const container = document.getElementById('live-bracket');
+    if (!container) return;
+
+    const byRound = {};
+    LIVE_KO.forEach(m => {
+      if (!byRound[m.round]) byRound[m.round] = [];
+      byRound[m.round].push(m);
+    });
+
+    container.innerHTML = Object.entries(byRound).map(([round, matches]) => {
+      const cards = matches.map(m => {
+        const key = `${m.home}|${m.away}`;
+        const score = SCORES_KO[key];
+        const d = new Date(m.date);
+        const isFT = d <= TODAY;
+        const pens = PENS[key] || '';
+        const dateStr = d.toLocaleDateString('en-GB', { weekday:'short', day:'numeric', month:'short' });
+
+        const homeScore = score ? `<span class="lb-score">${score[0]}</span>` : `<span class="lb-score upcoming">vs</span>`;
+        const awayScore = score ? `<span class="lb-score">${score[1]}</span>` : '';
+
+        return `
+          <div class="lb-match ${isFT && score ? 'ft' : 'upcoming'}">
+            <div class="lb-team-row">
+              <div class="lb-team">${flag(m.homeCC)}<span>${m.home}</span></div>
+              ${homeScore}
+            </div>
+            <div class="lb-team-row">
+              <div class="lb-team">${flag(m.awayCC)}<span>${m.away}</span></div>
+              ${awayScore}
+            </div>
+            ${pens ? `<div class="lb-pens">🥅 ${pens}</div>` : ''}
+            <div class="lb-meta"><span>${dateStr}</span><span>${isFT && score ? 'FT' : 'Upcoming'}</span></div>
+          </div>`;
+      }).join('');
+
+      return `<div class="lb-round"><div class="lb-round-title">${round}</div><div class="lb-grid">${cards}</div></div>`;
+    }).join('');
+  }
+
+  renderLiveBracket();
+})();
+
 // ---- SCHEDULE ----
 (function() {
   const TODAY = new Date('2026-06-29');
