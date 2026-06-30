@@ -745,7 +745,11 @@ teamFilter.addEventListener('change', filterPlayers);
     const grp = groupSel.value;
 
     let matches;
-    if (md === 'ko') {
+    if (md === 'r32') {
+      matches = KO_MATCHES.filter(m => m.label === 'Round of 32');
+    } else if (md === 'r16') {
+      matches = KO_MATCHES.filter(m => m.label === 'Round of 16');
+    } else if (md === 'ko') {
       matches = KO_MATCHES.filter(m => !grp);
     } else {
       matches = ALL_MATCHES.filter(m =>
@@ -814,7 +818,7 @@ teamFilter.addEventListener('change', filterPlayers);
     if (!tab) return;
     document.querySelectorAll('.sched-tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
-    if (tab.dataset.md === 'ko') groupSel.value = '';
+    if (['ko','r32','r16'].includes(tab.dataset.md)) groupSel.value = '';
     renderSchedule();
   });
 
