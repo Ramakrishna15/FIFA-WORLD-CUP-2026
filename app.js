@@ -495,9 +495,12 @@ teamFilter.addEventListener('change', filterPlayers);
     'Brazil|Japan':           [2, 1],
     'Germany|Paraguay':       [1, 1],
     'Netherlands|Morocco':    [1, 1],
+    'France|Sweden':          [3, 0],
+    "Côte d'Ivoire|Norway":   [1, 2],
+    'Mexico|Ecuador':         [2, 0],
   };
 
-  const TODAY = new Date('2026-06-29');
+  const TODAY = new Date('2026-06-30');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -549,7 +552,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-06-29');
+  const TODAY = new Date('2026-06-30');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
