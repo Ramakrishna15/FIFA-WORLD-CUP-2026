@@ -501,9 +501,12 @@ teamFilter.addEventListener('change', filterPlayers);
     'England|DR Congo':       [2, 1],
     'United States|Bosnia & Herzegovina': [2, 0],
     'Belgium|Senegal':        [3, 2],
+    'Portugal|Croatia':       [2, 1],
+    'Spain|Austria':          [3, 0],
+    'Switzerland|Algeria':    [2, 0],
   };
 
-  const TODAY = new Date('2026-07-01');
+  const TODAY = new Date('2026-07-02');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -555,7 +558,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-01');
+  const TODAY = new Date('2026-07-02');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
