@@ -1,0 +1,25 @@
+{
+  "name": "FIFA World Cup 2026",
+  "short_name": "WC 2026",
+  "description": "Live scores, teams, players and bracket for FIFA World Cup 2026",
+  "start_url": "/FIFA-WORLD-CUP-2026/",
+  "scope": "/FIFA-WORLD-CUP-2026/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0e1a",
+  "theme_color": "#f5a623",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
