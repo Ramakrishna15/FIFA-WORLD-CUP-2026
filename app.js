@@ -469,6 +469,7 @@ teamFilter.addEventListener('change', filterPlayers);
   const PENS = {
     'Germany|Paraguay':        'Paraguay win 4-3 on pens',
     'Netherlands|Morocco':     'Morocco win 3-2 on pens',
+    'Australia|Egypt':         'Egypt win 4-2 on pens',
   };
 
   const LIVE_KO = [
@@ -504,9 +505,12 @@ teamFilter.addEventListener('change', filterPlayers);
     'Portugal|Croatia':       [2, 1],
     'Spain|Austria':          [3, 0],
     'Switzerland|Algeria':    [2, 0],
+    'Argentina|Cape Verde':   [3, 2],  // AET
+    'Colombia|Ghana':         [1, 0],
+    'Australia|Egypt':        [1, 1],  // Egypt win 4-2 on pens
   };
 
-  const TODAY = new Date('2026-07-02');
+  const TODAY = new Date('2026-07-03');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -558,7 +562,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-02');
+  const TODAY = new Date('2026-07-03');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
