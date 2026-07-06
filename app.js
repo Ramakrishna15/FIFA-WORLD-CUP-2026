@@ -516,9 +516,11 @@ teamFilter.addEventListener('change', filterPlayers);
     // Round of 16
     'Canada|Morocco':         [0, 3],
     'France|Paraguay':        [1, 0],
+    'Brazil|Norway':          [1, 2],
+    'Mexico|England':         [2, 3],
   };
 
-  const TODAY = new Date('2026-07-05');
+  const TODAY = new Date('2026-07-06');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -570,7 +572,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-05');
+  const TODAY = new Date('2026-07-06');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
