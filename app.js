@@ -494,6 +494,8 @@ teamFilter.addEventListener('change', filterPlayers);
     { round: 'Round of 16', date: '2026-07-04', home: 'France',           homeCC: 'fr',     away: 'Paraguay',            awayCC: 'py'     },
     { round: 'Round of 16', date: '2026-07-05', home: 'Brazil',           homeCC: 'br',     away: 'Norway',              awayCC: 'no'     },
     { round: 'Round of 16', date: '2026-07-05', home: 'Mexico',           homeCC: 'mx',     away: 'England',             awayCC: 'gb-eng' },
+    { round: 'Round of 16', date: '2026-07-06', home: 'Spain',            homeCC: 'es',     away: 'Portugal',            awayCC: 'pt'     },
+    { round: 'Round of 16', date: '2026-07-06', home: 'Belgium',          homeCC: 'be',     away: 'United States',       awayCC: 'us'     },
   ];
 
   const SCORES_KO = {
@@ -518,9 +520,11 @@ teamFilter.addEventListener('change', filterPlayers);
     'France|Paraguay':        [1, 0],
     'Brazil|Norway':          [1, 2],
     'Mexico|England':         [2, 3],
+    'Spain|Portugal':         [1, 0],
+    'Belgium|United States':  [4, 1],
   };
 
-  const TODAY = new Date('2026-07-06');
+  const TODAY = new Date('2026-07-07');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -572,7 +576,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-06');
+  const TODAY = new Date('2026-07-07');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
