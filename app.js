@@ -470,6 +470,7 @@ teamFilter.addEventListener('change', filterPlayers);
     'Germany|Paraguay':        'Paraguay win 4-3 on pens',
     'Netherlands|Morocco':     'Morocco win 3-2 on pens',
     'Australia|Egypt':         'Egypt win 4-2 on pens',
+    'Switzerland|Colombia':    'Switzerland win 4-3 on pens',
   };
 
   const LIVE_KO = [
@@ -496,6 +497,13 @@ teamFilter.addEventListener('change', filterPlayers);
     { round: 'Round of 16', date: '2026-07-05', home: 'Mexico',           homeCC: 'mx',     away: 'England',             awayCC: 'gb-eng' },
     { round: 'Round of 16', date: '2026-07-06', home: 'Spain',            homeCC: 'es',     away: 'Portugal',            awayCC: 'pt'     },
     { round: 'Round of 16', date: '2026-07-06', home: 'Belgium',          homeCC: 'be',     away: 'United States',       awayCC: 'us'     },
+    { round: 'Round of 16', date: '2026-07-07', home: 'Argentina',        homeCC: 'ar',     away: 'Egypt',               awayCC: 'eg'     },
+    { round: 'Round of 16', date: '2026-07-07', home: 'Switzerland',      homeCC: 'ch',     away: 'Colombia',            awayCC: 'co'     },
+    // Quarter-Finals
+    { round: 'Quarter-Final', date: '2026-07-09', home: 'France',          homeCC: 'fr',   away: 'Morocco',             awayCC: 'ma'     },
+    { round: 'Quarter-Final', date: '2026-07-09', home: 'Spain',           homeCC: 'es',   away: 'Belgium',             awayCC: 'be'     },
+    { round: 'Quarter-Final', date: '2026-07-10', home: 'Norway',          homeCC: 'no',   away: 'England',             awayCC: 'gb-eng' },
+    { round: 'Quarter-Final', date: '2026-07-11', home: 'Argentina',       homeCC: 'ar',   away: 'Switzerland',         awayCC: 'ch'     },
   ];
 
   const SCORES_KO = {
@@ -522,9 +530,11 @@ teamFilter.addEventListener('change', filterPlayers);
     'Mexico|England':         [2, 3],
     'Spain|Portugal':         [1, 0],
     'Belgium|United States':  [4, 1],
+    'Argentina|Egypt':        [3, 2],
+    'Switzerland|Colombia':   [0, 0],  // Switzerland win 4-3 on pens
   };
 
-  const TODAY = new Date('2026-07-07');
+  const TODAY = new Date('2026-07-09');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -576,7 +586,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-07');
+  const TODAY = new Date('2026-07-09');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -618,17 +628,15 @@ teamFilter.addEventListener('change', filterPlayers);
     { matchday: 'ko', label: 'Round of 16', date: '2026-07-04', time: 'TBD', home: 'France',        away: 'Paraguay',    venue: 'Philadelphia' },
     { matchday: 'ko', label: 'Round of 16', date: '2026-07-05', time: 'TBD', home: 'Brazil',        away: 'Norway',      venue: 'New York' },
     { matchday: 'ko', label: 'Round of 16', date: '2026-07-05', time: 'TBD', home: 'Mexico',        away: 'England',     venue: 'Mexico City' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-06', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Dallas' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-06', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Miami' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-07', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Seattle' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-07', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Boston' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-08', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Atlanta' },
-    { matchday: 'ko', label: 'Round of 16', date: '2026-07-08', time: 'TBD', home: 'TBD',           away: 'TBD',         venue: 'Houston' },
+    { matchday: 'ko', label: 'Round of 16', date: '2026-07-06', time: 'TBD', home: 'Spain',         away: 'Portugal',    venue: 'Dallas' },
+    { matchday: 'ko', label: 'Round of 16', date: '2026-07-06', time: 'TBD', home: 'Belgium',       away: 'USA',         venue: 'Miami' },
+    { matchday: 'ko', label: 'Round of 16', date: '2026-07-07', time: 'TBD', home: 'Argentina',     away: 'Egypt',       venue: 'Seattle' },
+    { matchday: 'ko', label: 'Round of 16', date: '2026-07-07', time: 'TBD', home: 'Switzerland',   away: 'Colombia',    venue: 'Boston' },
     // Quarter-Finals
-    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-11', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'New York' },
-    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-11', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'Los Angeles' },
-    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-12', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'Dallas' },
-    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-12', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'Atlanta' },
+    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-09', time: 'TBD', home: 'France',      away: 'Morocco',     venue: 'Foxborough' },
+    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-09', time: 'TBD', home: 'Spain',       away: 'Belgium',     venue: 'Los Angeles' },
+    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-10', time: 'TBD', home: 'Norway',      away: 'England',     venue: 'Miami' },
+    { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-11', time: 'TBD', home: 'Argentina',   away: 'Switzerland', venue: 'Kansas City' },
     // Semi-Finals
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'Dallas' },
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'New York' },
