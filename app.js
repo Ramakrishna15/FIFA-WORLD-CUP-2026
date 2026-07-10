@@ -532,6 +532,8 @@ teamFilter.addEventListener('change', filterPlayers);
     'Belgium|United States':  [4, 1],
     'Argentina|Egypt':        [3, 2],
     'Switzerland|Colombia':   [0, 0],  // Switzerland win 4-3 on pens
+    // Quarter-Finals
+    'France|Morocco':         [2, 0],
   };
 
   const TODAY = new Date('2026-07-09');
