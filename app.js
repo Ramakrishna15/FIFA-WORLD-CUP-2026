@@ -535,9 +535,11 @@ teamFilter.addEventListener('change', filterPlayers);
     // Quarter-Finals
     'France|Morocco':         [2, 0],
     'Spain|Belgium':          [2, 1],
+    'Norway|England':         [1, 2],
+    'Argentina|Switzerland':  [3, 1],
   };
 
-  const TODAY = new Date('2026-07-09');
+  const TODAY = new Date('2026-07-12');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -589,7 +591,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-09');
+  const TODAY = new Date('2026-07-12');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
