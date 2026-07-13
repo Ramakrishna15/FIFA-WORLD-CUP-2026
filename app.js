@@ -504,6 +504,9 @@ teamFilter.addEventListener('change', filterPlayers);
     { round: 'Quarter-Final', date: '2026-07-09', home: 'Spain',           homeCC: 'es',   away: 'Belgium',             awayCC: 'be'     },
     { round: 'Quarter-Final', date: '2026-07-10', home: 'Norway',          homeCC: 'no',   away: 'England',             awayCC: 'gb-eng' },
     { round: 'Quarter-Final', date: '2026-07-11', home: 'Argentina',       homeCC: 'ar',   away: 'Switzerland',         awayCC: 'ch'     },
+    // Semi-Finals
+    { round: 'Semi-Final',    date: '2026-07-14', home: 'France',          homeCC: 'fr',   away: 'Spain',               awayCC: 'es'     },
+    { round: 'Semi-Final',    date: '2026-07-15', home: 'England',         homeCC: 'gb-eng', away: 'Argentina',         awayCC: 'ar'     },
   ];
 
   const SCORES_KO = {
@@ -537,9 +540,10 @@ teamFilter.addEventListener('change', filterPlayers);
     'Spain|Belgium':          [2, 1],
     'Norway|England':         [1, 2],
     'Argentina|Switzerland':  [3, 1],
+    // Semi-Finals
   };
 
-  const TODAY = new Date('2026-07-12');
+  const TODAY = new Date('2026-07-13');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -591,7 +595,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-12');
+  const TODAY = new Date('2026-07-13');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -643,8 +647,8 @@ teamFilter.addEventListener('change', filterPlayers);
     { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-10', time: 'TBD', home: 'Norway',      away: 'England',     venue: 'Miami' },
     { matchday: 'ko', label: 'Quarter-Final', date: '2026-07-11', time: 'TBD', home: 'Argentina',   away: 'Switzerland', venue: 'Kansas City' },
     // Semi-Finals
-    { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'Dallas' },
-    { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'TBD', away: 'TBD', venue: 'New York' },
+    { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-14', time: 'TBD', home: 'France',   away: 'Spain',      venue: 'Dallas' },
+    { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'England',  away: 'Argentina',  venue: 'Atlanta' },
     { matchday: 'ko', label: '3rd Place',     date: '2026-07-18', time: '18:00', home: 'TBD', away: 'TBD', venue: 'Miami' },
     { matchday: 'ko', label: '🏆 FINAL',      date: '2026-07-19', time: '18:00', home: 'TBD', away: 'TBD', venue: 'New York' },
   ];
