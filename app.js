@@ -1,3 +1,4 @@
+// FIFA World Cup 2026 - Semi-Finals: France vs Spain (Jul 14), England vs Argentina (Jul 15)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
