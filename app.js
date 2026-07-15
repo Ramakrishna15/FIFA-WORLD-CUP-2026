@@ -542,9 +542,10 @@ teamFilter.addEventListener('change', filterPlayers);
     'Norway|England':         [1, 2],
     'Argentina|Switzerland':  [3, 1],
     // Semi-Finals
+    'France|Spain':           [0, 2],
   };
 
-  const TODAY = new Date('2026-07-13');
+  const TODAY = new Date('2026-07-15');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -596,7 +597,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-13');
+  const TODAY = new Date('2026-07-15');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
