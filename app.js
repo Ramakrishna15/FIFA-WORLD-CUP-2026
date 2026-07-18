@@ -1,4 +1,4 @@
-// FIFA World Cup 2026 - Semi-Finals: France vs Spain (Jul 14), England vs Argentina (Jul 15)
+// FIFA World Cup 2026 - Final: Spain vs Argentina (Jul 19) | 3rd Place: France vs England (Jul 18)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
