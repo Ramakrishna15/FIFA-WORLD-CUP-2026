@@ -508,6 +508,8 @@ teamFilter.addEventListener('change', filterPlayers);
     // Semi-Finals
     { round: 'Semi-Final',    date: '2026-07-14', home: 'France',          homeCC: 'fr',   away: 'Spain',               awayCC: 'es'     },
     { round: 'Semi-Final',    date: '2026-07-15', home: 'England',         homeCC: 'gb-eng', away: 'Argentina',         awayCC: 'ar'     },
+    // 3rd Place
+    { round: '3rd Place',     date: '2026-07-18', home: 'France',          homeCC: 'fr',     away: 'England',           awayCC: 'gb-eng' },
   ];
 
   const SCORES_KO = {
@@ -544,9 +546,11 @@ teamFilter.addEventListener('change', filterPlayers);
     // Semi-Finals
     'France|Spain':           [0, 2],
     'England|Argentina':      [1, 2],
+    // 3rd Place & Final
+    'France|England':         [4, 6],
   };
 
-  const TODAY = new Date('2026-07-16');
+  const TODAY = new Date('2026-07-19');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -598,7 +602,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-16');
+  const TODAY = new Date('2026-07-19');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -652,7 +656,7 @@ teamFilter.addEventListener('change', filterPlayers);
     // Semi-Finals
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-14', time: 'TBD', home: 'France',   away: 'Spain',      venue: 'Dallas' },
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'England',  away: 'Argentina',  venue: 'Atlanta' },
-    { matchday: 'ko', label: '3rd Place',     date: '2026-07-18', time: '18:00', home: 'TBD', away: 'TBD', venue: 'Miami' },
+    { matchday: 'ko', label: '3rd Place',     date: '2026-07-18', time: '18:00', home: 'France', away: 'England', venue: 'Miami' },
     { matchday: 'ko', label: '🏆 FINAL',      date: '2026-07-19', time: '18:00', home: 'TBD', away: 'TBD', venue: 'New York' },
   ];
 
