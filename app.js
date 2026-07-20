@@ -510,6 +510,8 @@ teamFilter.addEventListener('change', filterPlayers);
     { round: 'Semi-Final',    date: '2026-07-15', home: 'England',         homeCC: 'gb-eng', away: 'Argentina',         awayCC: 'ar'     },
     // 3rd Place
     { round: '3rd Place',     date: '2026-07-18', home: 'France',          homeCC: 'fr',     away: 'England',           awayCC: 'gb-eng' },
+    // Final
+    { round: '🏆 Final',      date: '2026-07-19', home: 'Spain',           homeCC: 'es',     away: 'Argentina',         awayCC: 'ar'     },
   ];
 
   const SCORES_KO = {
@@ -548,9 +550,10 @@ teamFilter.addEventListener('change', filterPlayers);
     'England|Argentina':      [1, 2],
     // 3rd Place & Final
     'France|England':         [4, 6],
+    'Spain|Argentina':        [1, 0],  // AET - Ferran Torres winner
   };
 
-  const TODAY = new Date('2026-07-19');
+  const TODAY = new Date('2026-07-20');
 
   function flag(cc) {
     return `<img src="https://flagcdn.com/w40/${cc}.png" onerror="this.style.display='none'" />`;
@@ -602,7 +605,7 @@ teamFilter.addEventListener('change', filterPlayers);
 
 // ---- SCHEDULE ----
 (function() {
-  const TODAY = new Date('2026-07-19');
+  const TODAY = new Date('2026-07-20');
 
   function matchStatus(dateStr) {
     const d = new Date(dateStr);
@@ -657,7 +660,7 @@ teamFilter.addEventListener('change', filterPlayers);
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-14', time: 'TBD', home: 'France',   away: 'Spain',      venue: 'Dallas' },
     { matchday: 'ko', label: 'Semi-Final',    date: '2026-07-15', time: 'TBD', home: 'England',  away: 'Argentina',  venue: 'Atlanta' },
     { matchday: 'ko', label: '3rd Place',     date: '2026-07-18', time: '18:00', home: 'France', away: 'England', venue: 'Miami' },
-    { matchday: 'ko', label: '🏆 FINAL',      date: '2026-07-19', time: '18:00', home: 'TBD', away: 'TBD', venue: 'New York' },
+    { matchday: 'ko', label: '🏆 FINAL',      date: '2026-07-19', time: '18:00', home: 'Spain', away: 'Argentina', venue: 'New York' },
   ];
 
   // Generate all group stage matches
