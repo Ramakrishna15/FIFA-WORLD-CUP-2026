@@ -1,4 +1,4 @@
-// FIFA World Cup 2026 - Final: Spain vs Argentina (Jul 19) | 3rd Place: France vs England (Jul 18)
+// FIFA World Cup 2026 - CHAMPIONS: Spain 🏆 | Tournament Complete
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
