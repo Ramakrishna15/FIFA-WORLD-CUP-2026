@@ -1,4 +1,5 @@
 // FIFA World Cup 2026 - CHAMPIONS: Spain 🏆 | Tournament Complete
+// Golden Boot: Kylian Mbappé (France) | Golden Ball: Mikel Oyarzabal (Spain)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
