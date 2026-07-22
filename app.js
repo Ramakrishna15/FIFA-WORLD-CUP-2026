@@ -1,5 +1,5 @@
 // FIFA World Cup 2026 - CHAMPIONS: Spain 🏆 | Tournament Complete
-// Golden Boot: Kylian Mbappé (France) | Golden Ball: Mikel Oyarzabal (Spain)
+// Golden Boot: Kylian Mbappé (France) | Golden Ball: Mikel Oyarzabal (Spain) | Best GK: Emi Martinez (Argentina)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
