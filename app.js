@@ -2,6 +2,7 @@
 // Golden Boot: Kylian Mbappé (France) | Golden Ball: Mikel Oyarzabal (Spain) | Best GK: Emi Martinez (Argentina)
 // Best Young Player: Lamine Yamal (Spain) | Fair Play Award: Argentina
 // Total goals scored: 178 | Attendance: 5.4 million | Host cities: 16
+// Top scorer: Kylian Mbappé 8 goals | Most assists: Lionel Messi 7
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
