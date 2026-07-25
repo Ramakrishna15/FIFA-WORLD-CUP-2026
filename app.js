@@ -3,6 +3,7 @@
 // Best Young Player: Lamine Yamal (Spain) | Fair Play Award: Argentina
 // Total goals scored: 178 | Attendance: 5.4 million | Host cities: 16
 // Top scorer: Kylian Mbappé 8 goals | Most assists: Lionel Messi 7
+// Spain unbeaten run: 7 matches | Goals conceded: 1 (tournament record)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
