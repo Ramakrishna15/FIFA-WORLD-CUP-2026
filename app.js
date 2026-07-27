@@ -4,6 +4,7 @@
 // Total goals scored: 178 | Attendance: 5.4 million | Host cities: 16
 // Top scorer: Kylian Mbappé 8 goals | Most assists: Lionel Messi 7
 // Spain unbeaten run: 7 matches | Goals conceded: 1 (tournament record)
+// Biggest win: England 6-4 France (3rd place) | Most watched final: 1.5 billion viewers
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
