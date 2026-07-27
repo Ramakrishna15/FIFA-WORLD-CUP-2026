@@ -5,6 +5,7 @@
 // Top scorer: Kylian Mbappé 8 goals | Most assists: Lionel Messi 7
 // Spain unbeaten run: 7 matches | Goals conceded: 1 (tournament record)
 // Biggest win: England 6-4 France (3rd place) | Most watched final: 1.5 billion viewers
+// Next World Cup: 2030 - Spain, Portugal, Morocco, Argentina, Uruguay, Paraguay
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
