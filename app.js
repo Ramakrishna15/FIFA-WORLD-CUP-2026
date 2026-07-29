@@ -9,6 +9,7 @@
 // Red cards: 18 total | Hat-tricks: 3 (Saka, Mbappe, Alvarez)
 // Penalty shootouts: 4 (Paraguay, Morocco, Egypt, Switzerland advanced)
 // Oldest player: Lionel Messi (39) | Youngest player: Lamine Yamal (18)
+// Spain's 2nd World Cup title (2010, 2026) | Argentina back-to-back finalist (2022, 2026)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
