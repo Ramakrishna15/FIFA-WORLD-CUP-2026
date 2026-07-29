@@ -8,6 +8,7 @@
 // Next World Cup: 2030 - Spain, Portugal, Morocco, Argentina, Uruguay, Paraguay
 // Red cards: 18 total | Hat-tricks: 3 (Saka, Mbappe, Alvarez)
 // Penalty shootouts: 4 (Paraguay, Morocco, Egypt, Switzerland advanced)
+// Oldest player: Lionel Messi (39) | Youngest player: Lamine Yamal (18)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
