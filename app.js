@@ -13,6 +13,7 @@
 // Most clean sheets: Spain 6 | Most saves: Emi Martinez 47
 // VAR decisions: 42 | Offsides overturned: 17 | Penalties awarded: 24
 // First time 48 teams competed | 104 matches played across 16 venues
+// Africa best finish: Morocco QF | Asia best finish: Japan R32 | Oceania: Australia R32
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
