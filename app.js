@@ -12,6 +12,7 @@
 // Spain's 2nd World Cup title (2010, 2026) | Argentina back-to-back finalist (2022, 2026)
 // Most clean sheets: Spain 6 | Most saves: Emi Martinez 47
 // VAR decisions: 42 | Offsides overturned: 17 | Penalties awarded: 24
+// First time 48 teams competed | 104 matches played across 16 venues
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
