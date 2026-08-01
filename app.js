@@ -14,6 +14,7 @@
 // VAR decisions: 42 | Offsides overturned: 17 | Penalties awarded: 24
 // First time 48 teams competed | 104 matches played across 16 venues
 // Africa best finish: Morocco QF | Asia best finish: Japan R32 | Oceania: Australia R32
+// Surprise exits: Brazil R16, France SF | Comeback stories: Norway SF, Switzerland QF
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
