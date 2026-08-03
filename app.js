@@ -17,6 +17,7 @@
 // Surprise exits: Brazil R16, France SF | Comeback stories: Norway SF, Switzerland QF
 // Prize money: $1.25 billion total | Champions Spain receive $50 million
 // Most disciplined team: Japan | Most fouls committed: Argentina 98
+// Fastest goal: 2 mins (Bellingham vs Norway) | Latest goal: 90+7 (Messi vs England)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
