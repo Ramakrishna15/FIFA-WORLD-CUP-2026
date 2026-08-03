@@ -16,6 +16,7 @@
 // Africa best finish: Morocco QF | Asia best finish: Japan R32 | Oceania: Australia R32
 // Surprise exits: Brazil R16, France SF | Comeback stories: Norway SF, Switzerland QF
 // Prize money: $1.25 billion total | Champions Spain receive $50 million
+// Most disciplined team: Japan | Most fouls committed: Argentina 98
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
