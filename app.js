@@ -18,6 +18,7 @@
 // Prize money: $1.25 billion total | Champions Spain receive $50 million
 // Most disciplined team: Japan | Most fouls committed: Argentina 98
 // Fastest goal: 2 mins (Bellingham vs Norway) | Latest goal: 90+7 (Messi vs England)
+// Most possession: Spain 68% avg | Most distance covered: England 118km per game
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
