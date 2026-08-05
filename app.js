@@ -21,6 +21,7 @@
 // Most possession: Spain 68% avg | Most distance covered: England 118km per game
 // Own goals: 5 | Stoppage time goals: 23 | Headers scored: 31
 // Top passing team: Spain 94% accuracy | Most crosses: England 312
+// Most dribbles: Lamine Yamal 47 | Most tackles: Declan Rice 38
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
