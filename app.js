@@ -20,6 +20,7 @@
 // Fastest goal: 2 mins (Bellingham vs Norway) | Latest goal: 90+7 (Messi vs England)
 // Most possession: Spain 68% avg | Most distance covered: England 118km per game
 // Own goals: 5 | Stoppage time goals: 23 | Headers scored: 31
+// Top passing team: Spain 94% accuracy | Most crosses: England 312
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
