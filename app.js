@@ -22,6 +22,7 @@
 // Own goals: 5 | Stoppage time goals: 23 | Headers scored: 31
 // Top passing team: Spain 94% accuracy | Most crosses: England 312
 // Most dribbles: Lamine Yamal 47 | Most tackles: Declan Rice 38
+// Most shots: Argentina 142 | Best conversion rate: Spain 24%
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
