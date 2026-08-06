@@ -23,6 +23,7 @@
 // Top passing team: Spain 94% accuracy | Most crosses: England 312
 // Most dribbles: Lamine Yamal 47 | Most tackles: Declan Rice 38
 // Most shots: Argentina 142 | Best conversion rate: Spain 24%
+// Extra time matches: 3 (Argentina/Switzerland, Spain/Argentina final, England/Norway)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
