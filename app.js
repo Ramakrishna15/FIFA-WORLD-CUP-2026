@@ -27,6 +27,7 @@
 // Most expensive squad: England $1.2B | Least expensive: Cape Verde $18M
 // Average goals per game: 1.71 | Highest scoring game: England 6-4 France (10 goals)
 // Debut World Cup teams: 4 (Cape Verde, South Africa, DR Congo, Bosnia)
+// Most experienced squad: Argentina avg 31.2 yrs | Youngest squad: USA avg 24.1 yrs
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
