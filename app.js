@@ -26,6 +26,7 @@
 // Extra time matches: 3 (Argentina/Switzerland, Spain/Argentina final, England/Norway)
 // Most expensive squad: England $1.2B | Least expensive: Cape Verde $18M
 // Average goals per game: 1.71 | Highest scoring game: England 6-4 France (10 goals)
+// Debut World Cup teams: 4 (Cape Verde, South Africa, DR Congo, Bosnia)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
