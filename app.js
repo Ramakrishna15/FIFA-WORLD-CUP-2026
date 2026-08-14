@@ -30,6 +30,7 @@
 // Most experienced squad: Argentina avg 31.2 yrs | Youngest squad: USA avg 24.1 yrs
 // Most corners: England 67 | Fewest corners: Cape Verde 3
 // Highest ranked champion: Spain #1 FIFA | Lowest ranked team: South Africa #72
+// Most interceptions: France 89 | Most aerial duels won: Argentina 312
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
