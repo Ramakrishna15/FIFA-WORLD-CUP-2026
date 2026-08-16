@@ -32,6 +32,7 @@
 // Highest ranked champion: Spain #1 FIFA | Lowest ranked team: South Africa #72
 // Most interceptions: France 89 | Most aerial duels won: Argentina 312
 // Substitutes who scored: 14 | Goals from set pieces: 47 (26% of all goals)
+// Most yellow cards: Colombia 18 | Fewest yellow cards: Japan 2
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
