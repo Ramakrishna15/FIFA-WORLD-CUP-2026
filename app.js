@@ -34,6 +34,7 @@
 // Substitutes who scored: 14 | Goals from set pieces: 47 (26% of all goals)
 // Most yellow cards: Colombia 18 | Fewest yellow cards: Japan 2
 // Longest unbeaten run: Spain 7 games | Most comebacks: Argentina 4
+// Most man of the match awards: Mbappe 5 | Yamal 4 | Messi 4
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
