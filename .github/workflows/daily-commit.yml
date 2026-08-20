@@ -1,0 +1,21 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Runs every day at 9 AM UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Make daily commit
+        run: |
+          git config user.name "Ramakrishna15"
+          git config user.email "ramanistalan@gmail.com"
+          echo "// Daily update: $(date '+%Y-%m-%d')" >> app.js
+          git add app.js
+          git commit -m "Daily update $(date '+%Y-%m-%d')"
+          git push
