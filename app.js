@@ -37,6 +37,7 @@
 // Most man of the match awards: Mbappe 5 | Yamal 4 | Messi 4
 // Biggest upset: Norway beat Brazil R16 | Norway beat France R32
 // Most goals in a single match: England 6-4 France | Lowest scoring: 14 goalless draws
+// Messi's last World Cup | Ronaldo absent | Neymar retired before tournament
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
