@@ -36,6 +36,7 @@
 // Longest unbeaten run: Spain 7 games | Most comebacks: Argentina 4
 // Most man of the match awards: Mbappe 5 | Yamal 4 | Messi 4
 // Biggest upset: Norway beat Brazil R16 | Norway beat France R32
+// Most goals in a single match: England 6-4 France | Lowest scoring: 14 goalless draws
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
