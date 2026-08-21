@@ -2,8 +2,9 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Runs every day at 9 AM UTC
-  workflow_dispatch:      # Allow manual trigger
+    - cron: '0 9 * * *'   # First commit at 9 AM UTC
+    - cron: '0 14 * * *'  # Second commit at 2 PM UTC
+  workflow_dispatch:       # Allow manual trigger
 
 jobs:
   commit:
@@ -15,7 +16,7 @@ jobs:
         run: |
           git config user.name "Ramakrishna15"
           git config user.email "ramanistalan@gmail.com"
-          echo "// Daily update: $(date '+%Y-%m-%d')" >> app.js
+          echo "// Auto update: $(date '+%Y-%m-%d %H:%M:%S')" >> app.js
           git add app.js
-          git commit -m "Daily update $(date '+%Y-%m-%d')"
+          git commit -m "Auto update $(date '+%Y-%m-%d %H:%M')"
           git push
