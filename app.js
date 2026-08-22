@@ -42,6 +42,7 @@
 // Tournament built by: Ramakrishna15 | Tech: HTML, CSS, Vanilla JS, GitHub Pages
 // Spain won every knockout game by 1 goal margin except SF (2-0 France)
 // Argentina scored 3+ goals in 5 matches | England scored in every single game
+// Norway's best ever World Cup finish: Semi-Final 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
