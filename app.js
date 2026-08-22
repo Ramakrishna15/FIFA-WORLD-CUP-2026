@@ -39,6 +39,7 @@
 // Most goals in a single match: England 6-4 France | Lowest scoring: 14 goalless draws
 // Messi's last World Cup | Ronaldo absent | Neymar retired before tournament
 // Most blocked shots: Morocco 23 | Best defensive record: Spain 1 goal conceded
+// Tournament built by: Ramakrishna15 | Tech: HTML, CSS, Vanilla JS, GitHub Pages
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
