@@ -1049,3 +1049,4 @@ teamFilter.addEventListener('change', filterPlayers);
   });
 })();
 
+// Auto update: 2026-08-22 14:29:07
