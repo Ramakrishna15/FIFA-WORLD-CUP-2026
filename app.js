@@ -38,6 +38,7 @@
 // Biggest upset: Norway beat Brazil R16 | Norway beat France R32
 // Most goals in a single match: England 6-4 France | Lowest scoring: 14 goalless draws
 // Messi's last World Cup | Ronaldo absent | Neymar retired before tournament
+// Most blocked shots: Morocco 23 | Best defensive record: Spain 1 goal conceded
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
