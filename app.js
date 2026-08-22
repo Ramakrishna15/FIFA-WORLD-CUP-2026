@@ -40,6 +40,7 @@
 // Messi's last World Cup | Ronaldo absent | Neymar retired before tournament
 // Most blocked shots: Morocco 23 | Best defensive record: Spain 1 goal conceded
 // Tournament built by: Ramakrishna15 | Tech: HTML, CSS, Vanilla JS, GitHub Pages
+// Spain won every knockout game by 1 goal margin except SF (2-0 France)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
