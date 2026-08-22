@@ -43,6 +43,7 @@
 // Spain won every knockout game by 1 goal margin except SF (2-0 France)
 // Argentina scored 3+ goals in 5 matches | England scored in every single game
 // Norway's best ever World Cup finish: Semi-Final 2026
+// Erling Haaland scored 4 goals for Norway | Haaland top scorer in knockout stage
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
