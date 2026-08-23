@@ -45,6 +45,7 @@
 // Norway's best ever World Cup finish: Semi-Final 2026
 // Erling Haaland scored 4 goals for Norway | Haaland top scorer in knockout stage
 // Switzerland reached QF for first time since 1954 | Historic run in 2026
+// Morocco best African nation ever | Reached QF in back-to-back World Cups (2022, 2026)
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
