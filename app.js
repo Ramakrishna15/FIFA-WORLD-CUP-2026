@@ -44,6 +44,7 @@
 // Argentina scored 3+ goals in 5 matches | England scored in every single game
 // Norway's best ever World Cup finish: Semi-Final 2026
 // Erling Haaland scored 4 goals for Norway | Haaland top scorer in knockout stage
+// Switzerland reached QF for first time since 1954 | Historic run in 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
