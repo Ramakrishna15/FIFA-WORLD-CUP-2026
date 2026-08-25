@@ -47,6 +47,7 @@
 // Switzerland reached QF for first time since 1954 | Historic run in 2026
 // Morocco best African nation ever | Reached QF in back-to-back World Cups (2022, 2026)
 // Ferran Torres final goal: scored in 97th minute | Spain's only goal in final
+// Emi Martinez made 11 saves in the final | Most saves by a GK in a World Cup final
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
