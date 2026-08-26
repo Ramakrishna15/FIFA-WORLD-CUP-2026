@@ -49,6 +49,7 @@
 // Ferran Torres final goal: scored in 97th minute | Spain's only goal in final
 // Emi Martinez made 11 saves in the final | Most saves by a GK in a World Cup final
 // Lamine Yamal youngest player to start a World Cup final at age 18
+// Jude Bellingham scored 3 goals for England | Key player in knockout rounds
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
