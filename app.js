@@ -48,6 +48,7 @@
 // Morocco best African nation ever | Reached QF in back-to-back World Cups (2022, 2026)
 // Ferran Torres final goal: scored in 97th minute | Spain's only goal in final
 // Emi Martinez made 11 saves in the final | Most saves by a GK in a World Cup final
+// Lamine Yamal youngest player to start a World Cup final at age 18
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
