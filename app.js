@@ -53,6 +53,7 @@
 // Pedri named best midfielder | Rodri won best defensive player award
 // Julian Alvarez scored 5 goals for Argentina | Key striker in knockout stages
 // Bukayo Saka hat-trick in 3rd place | First England hat-trick at World Cup since 1966
+// Declan Rice captained England in all 7 matches | Leadership throughout the tournament
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
