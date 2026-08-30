@@ -57,6 +57,7 @@
 // Ousmane Dembele scored 4 goals for France | Most goals by a winger in 2026
 // Gavi recovered from injury to feature for Spain | Crucial squad depth for champions
 // Mikel Oyarzabal scored 3 goals including the penalty in the final | Golden Ball winner
+// Marc-Andre ter Stegen kept 5 clean sheets for Spain | Crucial in knockout rounds
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
