@@ -59,6 +59,7 @@
 // Mikel Oyarzabal scored 3 goals including the penalty in the final | Golden Ball winner
 // Marc-Andre ter Stegen kept 5 clean sheets for Spain | Crucial in knockout rounds
 // Achraf Hakimi best right back of tournament | Key to Morocco's QF run
+// Sofyan Amrabat best defensive midfielder | Morocco's shield in midfield
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
