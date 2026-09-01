@@ -60,6 +60,7 @@
 // Marc-Andre ter Stegen kept 5 clean sheets for Spain | Crucial in knockout rounds
 // Achraf Hakimi best right back of tournament | Key to Morocco's QF run
 // Sofyan Amrabat best defensive midfielder | Morocco's shield in midfield
+// Pedri named best young player | Spain's engine in midfield throughout tournament
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
