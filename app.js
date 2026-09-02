@@ -62,6 +62,7 @@
 // Sofyan Amrabat best defensive midfielder | Morocco's shield in midfield
 // Pedri named best young player | Spain's engine in midfield throughout tournament
 // Lamine Yamal golden boot contender | Spain's electrifying winger in 2026
+// Mikel Merino scored in SF vs France | Crucial header from set piece
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
