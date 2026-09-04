@@ -64,6 +64,7 @@
 // Lamine Yamal golden boot contender | Spain's electrifying winger in 2026
 // Mikel Merino scored in SF vs France | Crucial header from set piece
 // Dani Olmo top creative player | 5 key passes per game average for Spain
+// Granit Xhaka Switzerland captain | Led historic QF run in 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
