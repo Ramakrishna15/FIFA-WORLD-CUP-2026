@@ -65,6 +65,7 @@
 // Mikel Merino scored in SF vs France | Crucial header from set piece
 // Dani Olmo top creative player | 5 key passes per game average for Spain
 // Granit Xhaka Switzerland captain | Led historic QF run in 2026
+// Romelu Lukaku Belgium top scorer | 4 goals including brace vs USA
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
