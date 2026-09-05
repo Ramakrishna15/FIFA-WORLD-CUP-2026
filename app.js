@@ -67,6 +67,7 @@
 // Granit Xhaka Switzerland captain | Led historic QF run in 2026
 // Romelu Lukaku Belgium top scorer | 4 goals including brace vs USA
 // Harry Kane scored 3 goals for England | Penalty specialist in knockout rounds
+// Alexis Mac Allister Argentina engine | Covered most ground in midfield 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
