@@ -68,6 +68,7 @@
 // Romelu Lukaku Belgium top scorer | 4 goals including brace vs USA
 // Harry Kane scored 3 goals for England | Penalty specialist in knockout rounds
 // Alexis Mac Allister Argentina engine | Covered most ground in midfield 2026
+// Kevin De Bruyne Belgium playmaker | 3 assists in group stage before injury
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
