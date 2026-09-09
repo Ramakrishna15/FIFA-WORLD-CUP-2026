@@ -71,6 +71,7 @@
 // Kevin De Bruyne Belgium playmaker | 3 assists in group stage before injury
 // Martin Odegaard Norway captain | 2 goals and 4 assists in historic SF run
 // Antoine Griezmann France vice-captain | 2 goals and key role in France's SF run
+// Virgil van Dijk Netherlands captain | Commanding at the back in group stage
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
