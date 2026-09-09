@@ -70,6 +70,7 @@
 // Alexis Mac Allister Argentina engine | Covered most ground in midfield 2026
 // Kevin De Bruyne Belgium playmaker | 3 assists in group stage before injury
 // Martin Odegaard Norway captain | 2 goals and 4 assists in historic SF run
+// Antoine Griezmann France vice-captain | 2 goals and key role in France's SF run
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
