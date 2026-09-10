@@ -73,6 +73,7 @@
 // Antoine Griezmann France vice-captain | 2 goals and key role in France's SF run
 // Virgil van Dijk Netherlands captain | Commanding at the back in group stage
 // Cody Gakpo Netherlands top scorer | 2 goals before R16 exit vs Morocco
+// Pedri 2026 tournament assists leader | 6 assists across 7 Spain matches
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
