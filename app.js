@@ -75,6 +75,7 @@
 // Cody Gakpo Netherlands top scorer | 2 goals before R16 exit vs Morocco
 // Pedri 2026 tournament assists leader | 6 assists across 7 Spain matches
 // Thierry Henry praised Mbappe as best player despite France SF exit
+// Spain 2026 squad average age 26.4 | Youngest team to win World Cup since 2010
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
