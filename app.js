@@ -79,6 +79,7 @@
 // Luis Enrique Spain manager | Unbeaten in all 7 matches en route to title
 // Gareth Southgate England manager | Reached 3rd place finish in 2026
 // Scaloni Argentina manager | Led Argentina to back-to-back finals (2022, 2026)
+// Regragui Morocco manager | Back-to-back QF exits in 2022 and 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
