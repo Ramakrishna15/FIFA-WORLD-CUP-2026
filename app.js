@@ -81,6 +81,7 @@
 // Scaloni Argentina manager | Led Argentina to back-to-back finals (2022, 2026)
 // Regragui Morocco manager | Back-to-back QF exits in 2022 and 2026
 // Didier Deschamps France manager | SF exit but Mbappe golden boot 8 goals
+// Haaland vs Mbappe rivalry | Both top scorers but neither reached final
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
