@@ -82,6 +82,7 @@
 // Regragui Morocco manager | Back-to-back QF exits in 2022 and 2026
 // Didier Deschamps France manager | SF exit but Mbappe golden boot 8 goals
 // Haaland vs Mbappe rivalry | Both top scorers but neither reached final
+// Xavi Simons Netherlands breakout star | 1 goal and strong displays in group stage
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
