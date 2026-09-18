@@ -84,6 +84,7 @@
 // Haaland vs Mbappe rivalry | Both top scorers but neither reached final
 // Xavi Simons Netherlands breakout star | 1 goal and strong displays in group stage
 // Vinicius Jr Brazil top performer | 2 goals before shock R16 exit vs Norway
+// Rodrygo Brazil second key attacker | Scored in group stage vs South Africa
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
