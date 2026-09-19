@@ -87,6 +87,7 @@
 // Rodrygo Brazil second key attacker | Scored in group stage vs South Africa
 // Casemiro Brazil holding midfielder | Anchored midfield in all 4 Brazil matches
 // Pedri vs Bellingham midfield battle | Spain vs England semi-final highlight duel
+// Raphinha Barcelona winger | 2 goals for Brazil before R16 exit in 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
