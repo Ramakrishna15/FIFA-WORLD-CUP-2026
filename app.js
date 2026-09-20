@@ -89,6 +89,7 @@
 // Pedri vs Bellingham midfield battle | Spain vs England semi-final highlight duel
 // Raphinha Barcelona winger | 2 goals for Brazil before R16 exit in 2026
 // Joselu Spain striker | Crucial impact sub in SF vs France scoring twice
+// Thiago Alcantara Spain veteran | Retired after 2026 final win with Spain
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
