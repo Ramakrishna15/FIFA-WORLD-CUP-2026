@@ -91,6 +91,7 @@
 // Joselu Spain striker | Crucial impact sub in SF vs France scoring twice
 // Thiago Alcantara Spain veteran | Retired after 2026 final win with Spain
 // Yann Sommer Switzerland GK | Heroic penalty saves in R16 vs Colombia
+// Breel Embolo Switzerland striker | 2 goals in group stage to top Group B
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
