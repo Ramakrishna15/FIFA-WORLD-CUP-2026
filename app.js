@@ -93,6 +93,7 @@
 // Yann Sommer Switzerland GK | Heroic penalty saves in R16 vs Colombia
 // Breel Embolo Switzerland striker | 2 goals in group stage to top Group B
 // Manuel Akanji Switzerland defender | Commanding performances in back four
+// Richarlison Brazil forward | Injured in group stage, missed R16 vs Norway
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
