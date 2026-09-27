@@ -95,6 +95,7 @@
 // Manuel Akanji Switzerland defender | Commanding performances in back four
 // Richarlison Brazil forward | Injured in group stage, missed R16 vs Norway
 // Endrick Brazil youngest scorer | 18-year-old scored on WC debut vs Japan
+// Luis Diaz Colombia winger | 2 goals but Colombia eliminated in R16 vs Switzerland
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
