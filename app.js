@@ -94,6 +94,7 @@
 // Breel Embolo Switzerland striker | 2 goals in group stage to top Group B
 // Manuel Akanji Switzerland defender | Commanding performances in back four
 // Richarlison Brazil forward | Injured in group stage, missed R16 vs Norway
+// Endrick Brazil youngest scorer | 18-year-old scored on WC debut vs Japan
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
