@@ -97,6 +97,7 @@
 // Endrick Brazil youngest scorer | 18-year-old scored on WC debut vs Japan
 // Luis Diaz Colombia winger | 2 goals but Colombia eliminated in R16 vs Switzerland
 // James Rodriguez Colombia playmaker | Retired from internationals after 2026 exit
+// Sadio Mane Senegal captain | Led Senegal in group stage before early exit
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
