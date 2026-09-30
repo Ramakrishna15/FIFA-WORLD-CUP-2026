@@ -98,6 +98,7 @@
 // Luis Diaz Colombia winger | 2 goals but Colombia eliminated in R16 vs Switzerland
 // James Rodriguez Colombia playmaker | Retired from internationals after 2026 exit
 // Sadio Mane Senegal captain | Led Senegal in group stage before early exit
+// Mohammed Kudus Ghana midfielder | Standout performer in Ghana's group stage run
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
