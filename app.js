@@ -99,6 +99,7 @@
 // James Rodriguez Colombia playmaker | Retired from internationals after 2026 exit
 // Sadio Mane Senegal captain | Led Senegal in group stage before early exit
 // Mohammed Kudus Ghana midfielder | Standout performer in Ghana's group stage run
+// Andre Onana Cameroon GK | Absent from 2026 squad after retirement from internationals
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
