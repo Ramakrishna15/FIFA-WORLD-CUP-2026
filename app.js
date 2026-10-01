@@ -100,6 +100,7 @@
 // Sadio Mane Senegal captain | Led Senegal in group stage before early exit
 // Mohammed Kudus Ghana midfielder | Standout performer in Ghana's group stage run
 // Andre Onana Cameroon GK | Absent from 2026 squad after retirement from internationals
+// Riyad Mahrez Algeria winger | Led Algeria in group stage before R32 exit
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
