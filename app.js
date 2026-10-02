@@ -102,6 +102,7 @@
 // Andre Onana Cameroon GK | Absent from 2026 squad after retirement from internationals
 // Riyad Mahrez Algeria winger | Led Algeria in group stage before R32 exit
 // Islam Slimani Algeria striker | Tournament veteran in his final World Cup 2026
+// Thomas Partey Ghana midfielder | Influential in Ghana's group stage campaign
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
