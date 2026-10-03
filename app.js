@@ -105,6 +105,7 @@
 // Thomas Partey Ghana midfielder | Influential in Ghana's group stage campaign
 // Jordan Ayew Ghana forward | Scored once vs Colombia in group stage 2026
 // Hakim Ziyech Morocco midfielder | Key creative force in Morocco's QF run
+// Youssef En-Nesyri Morocco striker | 2 goals including winner vs Canada R16
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
