@@ -107,6 +107,7 @@
 // Hakim Ziyech Morocco midfielder | Key creative force in Morocco's QF run
 // Youssef En-Nesyri Morocco striker | 2 goals including winner vs Canada R16
 // Jonathan David Canada striker | Top scorer for Canada with 3 goals in 2026
+// Alphonso Davies Canada left back | Marauding runs from defence in group stage
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
