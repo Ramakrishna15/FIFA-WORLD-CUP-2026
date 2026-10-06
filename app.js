@@ -109,6 +109,7 @@
 // Jonathan David Canada striker | Top scorer for Canada with 3 goals in 2026
 // Alphonso Davies Canada left back | Marauding runs from defence in group stage
 // Tajon Buchanan Canada winger | Assisted Davies goal vs South Africa in group stage
+// Jesus Ferreira USA striker | Led USA attack in group stage alongside Pulisic
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
