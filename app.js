@@ -111,6 +111,7 @@
 // Tajon Buchanan Canada winger | Assisted Davies goal vs South Africa in group stage
 // Jesus Ferreira USA striker | Led USA attack in group stage alongside Pulisic
 // Christian Pulisic USA captain | Scored in both group stage games for the hosts
+// Weston McKennie USA midfielder | Box-to-box engine in USA's R16 run 2026
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
