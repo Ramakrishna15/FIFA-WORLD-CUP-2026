@@ -113,6 +113,7 @@
 // Christian Pulisic USA captain | Scored in both group stage games for the hosts
 // Weston McKennie USA midfielder | Box-to-box engine in USA's R16 run 2026
 // Tyler Adams USA captain | Injured before tournament, missed all of 2026 WC
+// Matt Turner USA GK | Reliable between the sticks for USA in all 3 matches
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
