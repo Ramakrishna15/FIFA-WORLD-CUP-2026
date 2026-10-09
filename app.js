@@ -114,6 +114,7 @@
 // Weston McKennie USA midfielder | Box-to-box engine in USA's R16 run 2026
 // Tyler Adams USA captain | Injured before tournament, missed all of 2026 WC
 // Matt Turner USA GK | Reliable between the sticks for USA in all 3 matches
+// Gio Reyna USA attacker | Scored off bench vs Bosnia in USA's R16 qualification
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
