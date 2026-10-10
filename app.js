@@ -116,6 +116,7 @@
 // Matt Turner USA GK | Reliable between the sticks for USA in all 3 matches
 // Gio Reyna USA attacker | Scored off bench vs Bosnia in USA's R16 qualification
 // Yunus Musah USA midfielder | Energetic performances throughout USA's group stage
+// Lionel Messi last WC goal | Scored 90+7 winner vs England in 3rd place match
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
