@@ -120,6 +120,7 @@
 // Messi 2026 final appearance | Played full 120 mins in final vs England aged 39
 // Spain 2026 the new dynasty | Won Euro 2024 and World Cup 2026 back-to-back
 // Argentina 2030 WC co-host | Will host games in Buenos Aires as part of centenary
+// England 2030 WC bid | Bidding to co-host 2030 WC with Ireland, Scotland, Wales
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
