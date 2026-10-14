@@ -124,6 +124,7 @@
 // Lamine Yamal 2030 WC prospect | Will be 22 at 2030 WC — Spain's future talisman
 // Endrick 2030 WC prospect | Brazil's 22-year-old striker will lead next generation
 // Xavi Simons 2030 WC prospect | Netherlands 25-year-old set to star in 2030
+// Pedri 2030 WC favourite | Spain's 27-year-old will be at peak for 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
