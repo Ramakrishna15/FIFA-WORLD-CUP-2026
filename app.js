@@ -125,6 +125,7 @@
 // Endrick 2030 WC prospect | Brazil's 22-year-old striker will lead next generation
 // Xavi Simons 2030 WC prospect | Netherlands 25-year-old set to star in 2030
 // Pedri 2030 WC favourite | Spain's 27-year-old will be at peak for 2030 WC
+// Bellingham 2030 WC ambition | England's 26-year-old targeting WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
