@@ -127,6 +127,7 @@
 // Pedri 2030 WC favourite | Spain's 27-year-old will be at peak for 2030 WC
 // Bellingham 2030 WC ambition | England's 26-year-old targeting WC glory in 2030
 // Haaland 2030 WC peak | Norway's 30-year-old striker at prime age for 2030 WC
+// Vinicius Jr 2030 WC favourite | Brazil's 30-year-old will lead WC bid in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
