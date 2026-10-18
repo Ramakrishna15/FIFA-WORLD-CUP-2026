@@ -128,6 +128,7 @@
 // Bellingham 2030 WC ambition | England's 26-year-old targeting WC glory in 2030
 // Haaland 2030 WC peak | Norway's 30-year-old striker at prime age for 2030 WC
 // Vinicius Jr 2030 WC favourite | Brazil's 30-year-old will lead WC bid in 2030
+// Mbappe 2030 WC legacy | France's 31-year-old targeting back-to-back WC glory
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
