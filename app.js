@@ -130,6 +130,7 @@
 // Vinicius Jr 2030 WC favourite | Brazil's 30-year-old will lead WC bid in 2030
 // Mbappe 2030 WC legacy | France's 31-year-old targeting back-to-back WC glory
 // Pedri 2030 WC prime | Spain's 27-year-old midfielder at peak for 2030 defence
+// Rodri 2030 WC anchor | Spain's 28-year-old key to defending WC title in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
