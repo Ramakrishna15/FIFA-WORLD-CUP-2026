@@ -133,6 +133,7 @@
 // Rodri 2030 WC anchor | Spain's 28-year-old key to defending WC title in 2030
 // Lamine Yamal 2030 WC star | Spain's 22-year-old will be WC favourite in 2030
 // Gavi 2030 WC return | Spain's 26-year-old aims to reclaim WC glory in 2030
+// Foden 2030 WC bid | England's 30-year-old targeting first WC title in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
