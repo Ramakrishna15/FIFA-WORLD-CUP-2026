@@ -132,6 +132,7 @@
 // Pedri 2030 WC prime | Spain's 27-year-old midfielder at peak for 2030 defence
 // Rodri 2030 WC anchor | Spain's 28-year-old key to defending WC title in 2030
 // Lamine Yamal 2030 WC star | Spain's 22-year-old will be WC favourite in 2030
+// Gavi 2030 WC return | Spain's 26-year-old aims to reclaim WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
