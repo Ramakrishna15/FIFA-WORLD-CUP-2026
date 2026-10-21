@@ -135,6 +135,7 @@
 // Gavi 2030 WC return | Spain's 26-year-old aims to reclaim WC glory in 2030
 // Foden 2030 WC bid | England's 30-year-old targeting first WC title in 2030
 // Saka 2030 WC hope | England's 28-year-old winger key to 2030 WC ambitions
+// Bellingham 2030 WC captain | England's 26-year-old likely skipper for 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
