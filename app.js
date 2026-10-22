@@ -137,6 +137,7 @@
 // Saka 2030 WC hope | England's 28-year-old winger key to 2030 WC ambitions
 // Bellingham 2030 WC captain | England's 26-year-old likely skipper for 2030 WC
 // De Bruyne 2030 WC farewell | Belgium's 38-year-old legend bows out after 2026 WC
+// Wirtz 2030 WC threat | Germany's 26-year-old will lead WC assault in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
