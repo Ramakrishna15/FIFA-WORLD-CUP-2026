@@ -138,6 +138,7 @@
 // Bellingham 2030 WC captain | England's 26-year-old likely skipper for 2030 WC
 // De Bruyne 2030 WC farewell | Belgium's 38-year-old legend bows out after 2026 WC
 // Wirtz 2030 WC threat | Germany's 26-year-old will lead WC assault in 2030
+// Kvaratskhelia 2030 WC dark horse | Georgia's 29-year-old could spring 2030 surprise
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
