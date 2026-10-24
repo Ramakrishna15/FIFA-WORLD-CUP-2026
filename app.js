@@ -140,6 +140,7 @@
 // Wirtz 2030 WC threat | Germany's 26-year-old will lead WC assault in 2030
 // Kvaratskhelia 2030 WC dark horse | Georgia's 29-year-old could spring 2030 surprise
 // Osimhen 2030 WC contender | Nigeria's 31-year-old striker targeting WC glory in 2030
+// Muani 2030 WC redemption | France's 31-year-old seeking WC glory after 2026 semifinal exit
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
