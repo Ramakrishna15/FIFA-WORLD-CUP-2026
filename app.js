@@ -145,6 +145,7 @@
 // Diaz 2030 WC mission | Colombia's 32-year-old targeting first WC title in 2030
 // Salah 2030 WC dream | Egypt's 38-year-old legend likely retired before 2030 WC
 // Musiala 2030 WC force | Germany's 27-year-old attacking midfielder peaks for 2030 WC
+// Guler 2030 WC wildcard | Turkey's 25-year-old could be breakout star of 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
