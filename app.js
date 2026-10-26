@@ -144,6 +144,7 @@
 // Coman 2030 WC swansong | France's 34-year-old veteran aiming for one last WC run in 2030
 // Diaz 2030 WC mission | Colombia's 32-year-old targeting first WC title in 2030
 // Salah 2030 WC dream | Egypt's 38-year-old legend likely retired before 2030 WC
+// Musiala 2030 WC force | Germany's 27-year-old attacking midfielder peaks for 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
