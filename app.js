@@ -146,6 +146,7 @@
 // Salah 2030 WC dream | Egypt's 38-year-old legend likely retired before 2030 WC
 // Musiala 2030 WC force | Germany's 27-year-old attacking midfielder peaks for 2030 WC
 // Guler 2030 WC wildcard | Turkey's 25-year-old could be breakout star of 2030 WC
+// Pulisic 2030 WC finale | USA's 31-year-old captain targeting WC glory on home soil
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
