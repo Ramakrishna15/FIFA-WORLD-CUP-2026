@@ -147,6 +147,7 @@
 // Musiala 2030 WC force | Germany's 27-year-old attacking midfielder peaks for 2030 WC
 // Guler 2030 WC wildcard | Turkey's 25-year-old could be breakout star of 2030 WC
 // Pulisic 2030 WC finale | USA's 31-year-old captain targeting WC glory on home soil
+// Reyna 2030 WC prime | USA's 27-year-old midfielder set to peak at 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
