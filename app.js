@@ -149,6 +149,7 @@
 // Pulisic 2030 WC finale | USA's 31-year-old captain targeting WC glory on home soil
 // Reyna 2030 WC prime | USA's 27-year-old midfielder set to peak at 2030 WC
 // Morata 2030 WC legend | Spain's 34-year-old icon likely retired after 2026 WC triumph
+// Doku 2030 WC flyer | Belgium's 27-year-old winger targeting WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
