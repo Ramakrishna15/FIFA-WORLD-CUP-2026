@@ -152,6 +152,7 @@
 // Doku 2030 WC flyer | Belgium's 27-year-old winger targeting WC glory in 2030
 // Endrick 2030 WC star | Brazil's 23-year-old striker tipped to lead 2030 WC charge
 // Camavinga 2030 WC engine | France's 27-year-old midfielder key to 2030 WC bid
+// Olmo 2030 WC champion | Spain's 28-year-old aiming to retain WC title in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
