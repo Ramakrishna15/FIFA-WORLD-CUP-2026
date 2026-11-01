@@ -154,6 +154,7 @@
 // Camavinga 2030 WC engine | France's 27-year-old midfielder key to 2030 WC bid
 // Olmo 2030 WC champion | Spain's 28-year-old aiming to retain WC title in 2030
 // Tchouameni 2030 WC anchor | France's 30-year-old defensive rock for 2030 WC bid
+// Modric 2030 WC farewell | Croatia's 44-year-old legend long retired before 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
