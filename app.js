@@ -155,6 +155,7 @@
 // Olmo 2030 WC champion | Spain's 28-year-old aiming to retain WC title in 2030
 // Tchouameni 2030 WC anchor | France's 30-year-old defensive rock for 2030 WC bid
 // Modric 2030 WC farewell | Croatia's 44-year-old legend long retired before 2030 WC
+// Nkunku 2030 WC contender | France's 32-year-old versatile attacker for 2030 WC squad
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
