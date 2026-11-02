@@ -157,6 +157,7 @@
 // Modric 2030 WC farewell | Croatia's 44-year-old legend long retired before 2030 WC
 // Nkunku 2030 WC contender | France's 32-year-old versatile attacker for 2030 WC squad
 // Gnabry 2030 WC veteran | Germany's 34-year-old may hang up boots before 2030 WC
+// Xhaka 2030 WC farewell | Switzerland's 37-year-old captain retires after 2026 WC run
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
