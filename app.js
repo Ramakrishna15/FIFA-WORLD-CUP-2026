@@ -159,6 +159,7 @@
 // Gnabry 2030 WC veteran | Germany's 34-year-old may hang up boots before 2030 WC
 // Xhaka 2030 WC farewell | Switzerland's 37-year-old captain retires after 2026 WC run
 // Ruben Neves 2030 WC quest | Portugal's 33-year-old targets WC glory in 2030
+// Vlahovic 2030 WC hope | Serbia's 30-year-old striker leads 2030 WC charge
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
