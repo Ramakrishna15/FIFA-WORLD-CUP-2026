@@ -158,6 +158,7 @@
 // Nkunku 2030 WC contender | France's 32-year-old versatile attacker for 2030 WC squad
 // Gnabry 2030 WC veteran | Germany's 34-year-old may hang up boots before 2030 WC
 // Xhaka 2030 WC farewell | Switzerland's 37-year-old captain retires after 2026 WC run
+// Ruben Neves 2030 WC quest | Portugal's 33-year-old targets WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
