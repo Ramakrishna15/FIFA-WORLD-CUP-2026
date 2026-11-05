@@ -161,6 +161,7 @@
 // Ruben Neves 2030 WC quest | Portugal's 33-year-old targets WC glory in 2030
 // Vlahovic 2030 WC hope | Serbia's 30-year-old striker leads 2030 WC charge
 // Leao 2030 WC threat | Portugal's 30-year-old winger dangerous in 2030 WC
+// Diogo Jota 2030 WC push | Portugal's 33-year-old targets final WC tilt in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
