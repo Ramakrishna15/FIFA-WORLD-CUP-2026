@@ -162,6 +162,7 @@
 // Vlahovic 2030 WC hope | Serbia's 30-year-old striker leads 2030 WC charge
 // Leao 2030 WC threat | Portugal's 30-year-old winger dangerous in 2030 WC
 // Diogo Jota 2030 WC push | Portugal's 33-year-old targets final WC tilt in 2030
+// Zielinski 2030 WC dream | Poland's 34-year-old midfielder may retire after 2026 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
