@@ -164,6 +164,7 @@
 // Diogo Jota 2030 WC push | Portugal's 33-year-old targets final WC tilt in 2030
 // Zielinski 2030 WC dream | Poland's 34-year-old midfielder may retire after 2026 WC
 // Szoboszlai 2030 WC leader | Hungary's 29-year-old captain ready to shine in 2030 WC
+// Havertz 2030 WC drive | Germany's 31-year-old targeting WC glory after 2026 exit
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
