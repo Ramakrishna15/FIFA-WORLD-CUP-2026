@@ -167,6 +167,7 @@
 // Havertz 2030 WC drive | Germany's 31-year-old targeting WC glory after 2026 exit
 // Sancho 2030 WC revival | England's 30-year-old winger eyeing WC glory in 2030
 // Bernardo Silva 2030 WC last dance | Portugal's 35-year-old targeting WC farewell in 2030
+// Ferran Torres 2030 WC defender | Spain's 30-year-old WC Final hero eyes 2030 glory
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
