@@ -168,6 +168,7 @@
 // Sancho 2030 WC revival | England's 30-year-old winger eyeing WC glory in 2030
 // Bernardo Silva 2030 WC last dance | Portugal's 35-year-old targeting WC farewell in 2030
 // Ferran Torres 2030 WC defender | Spain's 30-year-old WC Final hero eyes 2030 glory
+// Mac Allister 2030 WC redemption | Argentina's 31-year-old aims to win WC again in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
