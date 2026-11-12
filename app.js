@@ -170,6 +170,7 @@
 // Ferran Torres 2030 WC defender | Spain's 30-year-old WC Final hero eyes 2030 glory
 // Mac Allister 2030 WC redemption | Argentina's 31-year-old aims to win WC again in 2030
 // De Paul 2030 WC veteran | Argentina's 36-year-old may retire before 2030 WC
+// Julian Alvarez 2030 WC star | Argentina's 30-year-old striker peaks at 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
