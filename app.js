@@ -172,6 +172,7 @@
 // De Paul 2030 WC veteran | Argentina's 36-year-old may retire before 2030 WC
 // Julian Alvarez 2030 WC star | Argentina's 30-year-old striker peaks at 2030 WC
 // Enzo Fernandez 2030 WC engine | Argentina's 29-year-old midfield key to 2030 WC bid
+// Kudus 2030 WC breakout | Ghana's 29-year-old attacking midfielder ready for 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
