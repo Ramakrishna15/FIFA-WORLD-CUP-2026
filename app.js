@@ -175,6 +175,7 @@
 // Kudus 2030 WC breakout | Ghana's 29-year-old attacking midfielder ready for 2030 WC
 // Lookman 2030 WC ambition | Nigeria's 32-year-old winger targeting WC glory in 2030
 // Zaccagni 2030 WC dark horse | Italy's 34-year-old may be last chance at WC glory
+// Barella 2030 WC drive | Italy's 33-year-old midfielder eyes WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
