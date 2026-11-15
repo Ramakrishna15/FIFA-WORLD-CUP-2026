@@ -177,6 +177,7 @@
 // Zaccagni 2030 WC dark horse | Italy's 34-year-old may be last chance at WC glory
 // Barella 2030 WC drive | Italy's 33-year-old midfielder eyes WC glory in 2030
 // Retegui 2030 WC striker | Italy's 31-year-old leads frontline for 2030 WC assault
+// Frattesi 2030 WC goal threat | Italy's 30-year-old midfielder scores big in 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
