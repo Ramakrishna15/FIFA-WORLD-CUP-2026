@@ -178,6 +178,7 @@
 // Barella 2030 WC drive | Italy's 33-year-old midfielder eyes WC glory in 2030
 // Retegui 2030 WC striker | Italy's 31-year-old leads frontline for 2030 WC assault
 // Frattesi 2030 WC goal threat | Italy's 30-year-old midfielder scores big in 2030 WC
+// Diatta 2030 WC hope | Senegal's 32-year-old winger leads 2030 WC charge
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
