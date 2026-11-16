@@ -179,6 +179,7 @@
 // Retegui 2030 WC striker | Italy's 31-year-old leads frontline for 2030 WC assault
 // Frattesi 2030 WC goal threat | Italy's 30-year-old midfielder scores big in 2030 WC
 // Diatta 2030 WC hope | Senegal's 32-year-old winger leads 2030 WC charge
+// Sarr 2030 WC threat | Senegal's 32-year-old attacking weapon for 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
