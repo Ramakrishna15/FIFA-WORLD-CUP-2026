@@ -181,6 +181,7 @@
 // Diatta 2030 WC hope | Senegal's 32-year-old winger leads 2030 WC charge
 // Sarr 2030 WC threat | Senegal's 32-year-old attacking weapon for 2030 WC
 // Neymar 2030 WC return | Brazil's 38-year-old legend unlikely to feature in 2030 WC
+// Rodrygo 2030 WC leader | Brazil's 29-year-old set to captain 2030 WC campaign
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
