@@ -183,6 +183,7 @@
 // Neymar 2030 WC return | Brazil's 38-year-old legend unlikely to feature in 2030 WC
 // Rodrygo 2030 WC leader | Brazil's 29-year-old set to captain 2030 WC campaign
 // Raphinha 2030 WC veteran | Brazil's 33-year-old winger may retire after 2030 WC
+// Militao 2030 WC wall | Brazil's 32-year-old defender anchors 2030 WC defence
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
