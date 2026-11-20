@@ -187,6 +187,7 @@
 // Dias 2030 WC rock | Portugal's 33-year-old centre-back marshals 2030 WC defence
 // Upamecano 2030 WC pillar | France's 31-year-old defender key to 2030 WC defence
 // Kounde 2030 WC shield | France's 31-year-old right-back anchors 2030 WC backline
+// Theo Hernandez 2030 WC flank | France's 32-year-old left-back bombs forward in 2030 WC
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
