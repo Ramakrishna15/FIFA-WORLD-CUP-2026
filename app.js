@@ -186,6 +186,7 @@
 // Militao 2030 WC wall | Brazil's 32-year-old defender anchors 2030 WC defence
 // Dias 2030 WC rock | Portugal's 33-year-old centre-back marshals 2030 WC defence
 // Upamecano 2030 WC pillar | France's 31-year-old defender key to 2030 WC defence
+// Kounde 2030 WC shield | France's 31-year-old right-back anchors 2030 WC backline
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
