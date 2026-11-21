@@ -189,6 +189,7 @@
 // Kounde 2030 WC shield | France's 31-year-old right-back anchors 2030 WC backline
 // Theo Hernandez 2030 WC flank | France's 32-year-old left-back bombs forward in 2030 WC
 // Walker 2030 WC farewell | England's 40-year-old right-back retires after 2026 WC run
+// Trippier 2030 WC end | England's 39-year-old veteran winds down after 2026 WC exit
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
