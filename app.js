@@ -188,6 +188,7 @@
 // Upamecano 2030 WC pillar | France's 31-year-old defender key to 2030 WC defence
 // Kounde 2030 WC shield | France's 31-year-old right-back anchors 2030 WC backline
 // Theo Hernandez 2030 WC flank | France's 32-year-old left-back bombs forward in 2030 WC
+// Walker 2030 WC farewell | England's 40-year-old right-back retires after 2026 WC run
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
