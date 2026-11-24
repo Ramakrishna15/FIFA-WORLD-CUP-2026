@@ -192,6 +192,7 @@
 // Trippier 2030 WC end | England's 39-year-old veteran winds down after 2026 WC exit
 // Alexander-Arnold 2030 WC chance | England's 31-year-old targets WC glory in 2030
 // Gomez 2030 WC defender | England's 33-year-old centre-back anchors 2030 WC backline
+// Rice 2030 WC captain | England's 31-year-old midfield general leads 2030 WC charge
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
