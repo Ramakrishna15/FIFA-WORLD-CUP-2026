@@ -194,6 +194,7 @@
 // Gomez 2030 WC defender | England's 33-year-old centre-back anchors 2030 WC backline
 // Rice 2030 WC captain | England's 31-year-old midfield general leads 2030 WC charge
 // Mainoo 2030 WC future | England's 27-year-old midfielder ready to star in 2030 WC
+// Gordon 2030 WC wing | England's 29-year-old winger targeting first WC title in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
