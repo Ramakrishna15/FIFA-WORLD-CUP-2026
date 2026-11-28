@@ -197,6 +197,7 @@
 // Gordon 2030 WC wing | England's 29-year-old winger targeting first WC title in 2030
 // Watkins 2030 WC striker | England's 34-year-old may compete for WC spot in 2030
 // Gallagher 2030 WC engine | England's 29-year-old midfielder drives 2030 WC campaign
+// Rashford 2030 WC redemption | England's 32-year-old forward eyes WC glory in 2030
 // Navigation
 const pages = document.querySelectorAll('.page');
 const navBtns = document.querySelectorAll('.nav-btn');
